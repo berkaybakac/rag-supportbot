@@ -1,0 +1,105 @@
+
+GARANTİ ŞARTLARI VE UYGULAMA POLİTİKALARI
+
+Bu belge, TeknikServisKolay A.Ş. tarafından sunulan tüm cihaz bakım ve onarım hizmetleri için geçerli olan garanti kapsamlarını ve uygulama prosedürlerini içerir. Tüm müşteriler, cihazlarını onarıma göndermeden önce bu garanti şartlarını dikkatle okumalıdır.
+
+BÖLÜM 1 – GARANTİ SÜRESİ
+
+1.1 Başlangıç Tarihi
+- Garanti süresi, cihazın satın alındığı tarihten itibaren başlar.
+- Servis sonrası onarılan parçalar için ise garanti süresi, onarım tarihinden itibaren geçerlidir.
+
+1.2 Süreler
+- Yeni cihazlarda üretici garantisi: 24 ay
+- Servis sonrası parça değişim garantisi: 6 ay
+- Yeniden imal edilmiş (refurbished) parçalar: 3 ay
+
+1.3 Fatura ve Belgelendirme Zorunluluğu
+- Garanti talebi için orijinal fatura veya e-fatura ibrazı zorunludur.
+- Faturasız ürünler “garanti dışı” olarak işlem görür.
+
+BÖLÜM 2 – GARANTİ KAPSAMI
+
+2.1 Kapsama Dahil Hizmetler
+- Üretim hatalarından kaynaklanan arızaların ücretsiz onarımı
+- Değiştirilen parçaların garanti süresi boyunca tekrar arızalanması durumunda yeniden değişim
+- Garanti süresi içinde yapılan bakım işlemleri sonrası ortaya çıkan sorunlar
+
+2.2 Kapsam Dışı Durumlar
+Aşağıdaki durumlar garanti dışında kabul edilir:
+- Kullanıcı hatası kaynaklı arızalar (düşürme, sıvı teması, darbe)
+- Yetkisiz kişi veya firmalarca yapılan müdahaleler
+- Cihazın uygunsuz koşullarda kullanılması (yüksek nem, tozlu ortam, aşırı sıcaklık)
+- Seri numarası silinmiş veya tahrif edilmiş cihazlar
+- Enerji kesintisi, voltaj dengesizliği, yıldırım düşmesi gibi dışsal faktörler
+
+2.3 Özel Durumlar
+- Tüketici, cihazın farklı bir işlem nedeniyle açılmış olduğunu beyan ederse teknik servis kontrolünde bu durum raporlanır.
+- Cihazın önceki onarımları sistemde görünmüyorsa, firma önce servis geçmişi araştırması yapar.
+
+BÖLÜM 3 – GARANTİ KULLANIM PROSEDÜRÜ
+
+3.1 Başvuru Süreci
+- Müşteri, arıza bildirimini çağrı merkezi, web formu veya mobil uygulama üzerinden yapar.
+- Servis personeli arıza durumunu değerlendirir ve “garanti uygunluk kontrolü” yapar.
+
+3.2 Yerinde Müdahale – Atölye Süreci
+- Cihaz arızası küçükse yerinde müdahale yapılır, kayıt altına alınır.
+- Büyük arızalarda cihaz atölyeye alınır, etiketlenir, kayıt defterine işlenir.
+
+3.3 İnceleme Raporu
+- Teknik ekip cihazı inceler, fotoğraflar ve tüm arıza bulgularını dijital servis sistemine girer.
+- Müşteriye detaylı garanti değerlendirme raporu gönderilir.
+
+3.4 Onay ve İşlem
+- Eğer arıza garanti kapsamındaysa ücretsiz işlem yapılır.
+- Garanti dışı ise müşteri bilgilendirilir ve fiyat teklifi sunulur.
+
+BÖLÜM 4 – GARANTİ SÜRESİNİN UZATILMASI
+
+4.1 Ek Garanti Paketleri
+- Müşteri, satın alma sırasında veya garanti süresi bitmeden “uzatılmış garanti paketi” alabilir.
+- Paket türleri:
+    - Ekstra 1 Yıl (Gold)
+    - Ekstra 2 Yıl (Platinum)
+
+4.2 Uygulama Şartları
+- Uzatılmış garanti, sadece orijinal müşteriye tanımlıdır.
+- Ürün el değiştirse dahi uzatılmış garanti devredilmez.
+
+4.3 Kapsam
+- Uzatılmış garanti; sadece üretim hatalarını kapsar.
+- Kullanıcı kaynaklı hasarlar, bu pakete dahil değildir.
+
+BÖLÜM 5 – DEĞİŞİM VE İADE
+
+5.1 Değişim Şartları
+- Aynı arıza, 3 kere tekrar ederse cihaz değişimi yapılabilir.
+- Yedek cihaz verilmesi, sadece parça temin süresi 10 iş gününü geçerse uygulanır.
+
+5.2 İade Durumu
+- Cihaz onarılamaz durumdaysa veya üretici kaynaklı kronik hata varsa tam iade yapılır.
+- Müşteri, kutu, aksesuar ve belgeleri tam olarak teslim etmelidir.
+
+BÖLÜM 6 – MÜŞTERİ SORUMLULUĞU
+
+6.1 Cihaz Tesliminde Yapılması Gerekenler
+- Cihaz temiz ve açık şekilde teslim edilmelidir.
+- Kullanıcı, varsa şifre ve PIN bilgilerini teknik personele sağlamalıdır.
+
+6.2 Veri Güvenliği
+- Firmamız, cihazdaki verilerin güvenliğini garanti etmez.
+- Müşteri, verilerini yedeklemekle yükümlüdür.
+
+6.3 İletişim Bilgileri
+- Müşteri, telefon ve e-posta bilgilerinin güncel olduğundan emin olmalıdır.
+- Bilgilendirmeler sadece kayıtlı iletişim kanalları üzerinden yapılır.
+
+BÖLÜM 7 – HUKUKİ GEÇERLİLİK
+
+7.1 Yürürlük
+- Bu belge, 1 Ocak 2024 tarihinden itibaren yürürlüktedir.
+- Garanti politikaları, yasal düzenlemelere göre revize edilebilir.
+
+7.2 Yetkili Mercii
+- Taraflar arasında anlaşmazlık olması durumunda Mersin Tüketici Hakem Heyeti yetkilidir.

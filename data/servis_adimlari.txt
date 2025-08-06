@@ -1,0 +1,102 @@
+
+TEKNİK SERVİS HİZMETİ ADIMLARI
+
+Bu belge, bir teknik servis çağrısının alınmasından tamamlanmasına kadar geçen tüm süreci ayrıntılı şekilde açıklamayı amaçlamaktadır. Amaç, müşteriye şeffaf bir hizmet akışı sunmak ve servis personelinin görev tanımlarını netleştirmektir.
+
+BÖLÜM 1 – HİZMET TALEBİNİN OLUŞMASI
+
+1.1 Çağrı Alma / Başvuru Süreci
+- Müşteri, teknik servis ihtiyacını aşağıdaki kanallardan biriyle bildirir:
+    - Web üzerinden form doldurarak
+    - Çağrı merkezi aracılığıyla
+    - Mobil uygulama üzerinden “Yeni Servis Talebi” oluşturularak
+- Sistem, başvuruyu alır ve CRM sistemine otomatik kayıt açar.
+- Talep kodu oluşturularak müşteriye SMS ve e-posta yoluyla iletilir.
+
+1.2 Ön Değerlendirme ve Randevu Planlaması
+- Müşteri temsilcisi, gelen talebi inceler.
+- Sorun tipi ve cihaz türüne göre teknik ekip atanır.
+- Müsaitlik durumuna göre müşteriyle birlikte uygun gün ve saat belirlenir.
+- Randevu bilgisi sistemde kayıt altına alınır ve tekrar SMS ile doğrulanır.
+
+BÖLÜM 2 – SERVİS ÖNCESİ HAZIRLIK
+
+2.1 Parça ve Ekipman Kontrolü
+- Servis planlaması sonrası teknik personel, servis günü öncesi ihtiyacı olan parçaları kontrol eder.
+- Gerekli parçalar stoktan ayrılır veya depo transferi yapılır.
+- Özel ekipman gerekiyorsa lojistik birimi bilgilendirilir.
+
+2.2 Lokasyon ve Erişim Bilgisi
+- Sistem, servis adresini harita ile entegre şekilde gösterir.
+- Adres bilgisi eksikse müşteriyle iletişime geçilir.
+
+BÖLÜM 3 – SERVİS ZİYARETİ
+
+3.1 Giriş ve Kimlik Doğrulama
+- Teknik personel, belirtilen saatte adrese ulaşır.
+- Kimliğini gösterir, "Servis Giriş Formu" dijital olarak imzalatılır.
+- Servis başlamadan önce müşteriye kısa bilgilendirme yapılır.
+
+3.2 Arıza Tespiti
+- Cihaz gözle kontrol edilir.
+- Gerekirse test cihazlarıyla arıza teşhisi yapılır.
+- Sorunun tipi, tekrarlanabilirliği ve geçmiş arızalar incelenir.
+- Tespit sonrası “Servis Raporu” ön taslağı hazırlanır.
+
+3.3 Onarım ve Müdahale
+- Müdahale öncesi müşteri onayı alınır.
+- Gerekli parça ve işlemler uygulanır.
+- Değiştirilen parçalar müşteriye gösterilir ve gerekirse teslim edilir.
+- Tüm işlemler sistemde “adım adım” kaydedilir.
+
+3.4 Servis Sonu Kontrol
+- Cihaz çalışır duruma getirilir.
+- Fonksiyon testi yapılır (ısıtma, soğutma, ses, sızıntı kontrolü vb.)
+- Gerekli durumlarda fotoğraf ile belgeleme yapılır.
+
+BÖLÜM 4 – SERVİS TAMAMLAMA
+
+4.1 Raporlama
+- Tüm işlem detayları içeren dijital “Servis Sonuç Formu” hazırlanır.
+- Müşteri, tablet üzerinden formu onaylar.
+- Müşteri memnuniyet anketi gönderilir.
+
+4.2 Faturalandırma
+- Garanti dışı müdahalelerde fatura kesilir.
+- Kredi kartı, havale ya da mobil ödeme ile tahsilat yapılır.
+- Fatura dijital olarak müşteriye iletilir.
+
+4.3 Servis Kapanışı
+- Sistem üzerinden ilgili talep kapatılır.
+- CRM sistemi üzerinden süreç otomatik arşivlenir.
+- Teknik personel yeni görev atamasına geçer.
+
+BÖLÜM 5 – ÖZEL DURUMLAR VE İSTİSNALAR
+
+5.1 Yerinde Müdahale Edilemeyen Durumlar
+- Cihaz atölyeye alınmalıdır: Aşırı hasar, özel teşhis ihtiyaçları vb.
+- Atölyeye taşınmadan önce müşteri onayı alınır.
+- Taşıma fişi düzenlenir ve cihaz barkodlanır.
+
+5.2 Ertelenen Müdahaleler
+- Parça tedariki mümkün değilse işlem ertelenir.
+- Yeni randevu planlaması yapılır.
+
+5.3 İkinci Ziyaret Gerektiren Durumlar
+- Müdahale sonrası test süresi uzun olan cihazlar için
+- Ek parça ihtiyacı oluşmuşsa
+- İlk ziyaret sırasında fiziksel müdahale mümkün olmamışsa
+
+BÖLÜM 6 – GÜVENLİK VE KALİTE KONTROL
+
+6.1 Personel Güvenliği
+- Elektrik bağlantıları kontrol edilmeden müdahale yapılmaz.
+- Koruyucu ekipmanlar (eldiven, gözlük, ayakkabı) zorunludur.
+
+6.2 Müşteri Alanı Güvenliği
+- İşlem alanı temiz bırakılmalıdır.
+- Duvar, mobilya ve zemin koruma kurallarına uyulmalıdır.
+
+6.3 Kalite Denetimi
+- Servis sonrası rastgele denetim yapılabilir.
+- Teknik işlem kayıtları kalite kontrol departmanı tarafından analiz edilir.

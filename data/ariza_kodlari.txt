@@ -1,0 +1,113 @@
+
+ARIZA KODLARI VE TEKNİK AÇIKLAMALAR
+
+Bu belge, TeknikServisKolay A.Ş. tarafından hizmet verilen cihazlarda en sık karşılaşılan arıza kodlarının açıklamalarını, çözüm önerilerini ve vaka örneklerini içermektedir. Belge, teknik servis çalışanları ve çağrı merkezi personeli tarafından kullanılmak üzere hazırlanmıştır.
+
+BÖLÜM 1 – KODLAMA STANDARTLARI
+
+- Tüm kodlar "ERR" veya "F" ile başlar ve sayısal bir değer içerir.
+- Kodlar cihazın marka/modeline göre farklılık gösterebilir, ancak çoğu kod uluslararası kabul görmüş standartlara dayanır.
+- Aynı cihaz türü (ör. kombi, klima, çamaşır makinesi) için farklı üreticilerin kullandığı kodlar değişebilir; bu nedenle üreticiye özel açıklamalar ayrıca belirtilmiştir.
+
+BÖLÜM 2 – ARIZA KODLARI
+
+1. ERR01 – Alev Algılanmıyor (Kombi)
+Açıklama: Brülör çalışmasına rağmen iyonizasyon çubuğu alev algılamıyor.
+Nedenleri:
+- Gaz valfi arızalı
+- İyonizasyon çubuğu kirli veya kopmuş
+- Ateşleme elektrodu çalışmıyor
+Çözüm:
+- Gaz valfi kontrol edilmeli
+- Elektroda ve iyonizasyon çubuğu temizlenmeli veya değiştirilmeli
+- Gerekirse anakart incelenmeli
+
+2. ERR02 – Düşük Su Basıncı (Kombi)
+Açıklama: Tesisat su basıncı 0.8 bar altına düştü.
+Nedenleri:
+- Su eksikliği
+- Su sızdıran radyatörler
+- Dolaşım pompasında hava
+Çözüm:
+- Sisteme su basılmalı (ideal basınç 1.5 bar)
+- Kaçak kontrolü yapılmalı
+
+3. F03 – Fan Hatası (Klima)
+Açıklama: İç ünite fan motoru dönmüyor veya düşük devirde takılı kaldı.
+Nedenleri:
+- Fan motoru arızalı
+- Motor kartı arızalı
+- Toz veya yabancı cisim sıkışması
+Çözüm:
+- Fan motoru ve kart test edilmeli
+- Fan pervanesi temizlenmeli
+
+4. F07 – Kompresör Koruma Modu (Klima)
+Açıklama: Aşırı ısı veya voltaj dalgalanması nedeniyle kompresör kendini korumaya aldı.
+Nedenleri:
+- Gaz eksikliği
+- Dış ünite filtresi tıkalı
+- Kondansatör arızalı
+Çözüm:
+- Gaz basıncı kontrol edilmeli
+- Filtre temizlenmeli
+- Elektrik devresi ölçülmeli
+
+5. ERR10 – Kapı Kilit Hatası (Çamaşır Makinesi)
+Açıklama: Kapı kilidi 3 denemede de kapanmadı.
+Nedenleri:
+- Kilit mekanizması arızalı
+- Anakarttan sinyal gelmiyor
+- Kapı sensörü bozuk
+Çözüm:
+- Kapı kilidi değiştirilmeli
+- Bağlantı kabloları kontrol edilmeli
+
+...
+
+BÖLÜM 3 – MARKA/MODEL SPESİFİK KODLAR
+
+Aşağıdaki kodlar sadece TeknikServisKolay A.Ş.’nin yetkili olduğu özel cihaz serilerinde kullanılmaktadır.
+
+Boswin Kombi Serisi:
+- BOS-35: ERR35 – Aşırı Isınma, 90°C üstü
+- BOS-40: ERR40 – Sensör Arızası, NTÇ kısa devre
+
+Frigovent Klima Serisi:
+- FRV-10: F10 – Gaz Kaçağı Algılandı
+- FRV-15: F15 – Basınç Sensörü Hatası
+
+CleanWash Çamaşır Serisi:
+- CW-1000: ERR08 – Tahliye Pompası Tıkalı
+- CW-2000: ERR14 – Dengesiz Yük Algılandı
+
+...
+
+BÖLÜM 4 – TEKRAR EDEN VAKA ÖRNEKLERİ
+
+Vaka 1:
+Müşteri: "Kombi çalışıyor gibi ama ısınmıyoruz."
+Kod: ERR01
+Saha Kontrolü: İyonizasyon çubuğu tamamen kopmuş.
+Çözüm: Çubuk değiştirildi. Gaz valfi test edildi, sorun çözülerek sistem normale döndü.
+
+Vaka 2:
+Müşteri: "Klimada çalışmıyor ışık yanıyor ama üfleme yok."
+Kod: F03
+Saha Kontrolü: Fan motoruna enerji gitmiyor. Kartta yanık.
+Çözüm: Fan motoru ve kontrol kartı birlikte değiştirildi.
+
+...
+
+BÖLÜM 5 – SERVİS İŞ AKIŞINA ENTEGRASYON
+
+- Arıza kodu girildikten sonra otomatik çözüm önerisi çıkmalı.
+- Çağrı merkezi bu kodlara göre müşteriye ön bilgi verebilmeli.
+- Teknisyen mobil uygulamada bu kodları filtreleyerek ilgili yedek parçaları görebilmeli.
+- RAG sistemine arıza kodları girildiğinde, teknik dökümandan çözüm önerisi alınabilmeli.
+
+BÖLÜM 6 – GÜNCELLEME POLİTİKASI
+
+- Arıza kodları her çeyrek dönemde bir güncellenir.
+- Güncellemeler teknik yöneticiler tarafından yapılır.
+- Yeni cihaz serileri geldikçe kod listeleri genişletilir.

@@ -1,0 +1,93 @@
+
+SIKÇA SORULAN SORULAR (SSS)
+
+Bu belge, TeknikServisKolay A.Ş. tarafından müşterilerden en sık alınan soruları, cevaplarını ve olası yönlendirmeleri içermektedir. Belgede yer alan sorular, çağrı merkezi kayıtları, saha teknisyeni raporları ve çevrim içi destek sistemi üzerinden toplanmış, müşteri geri bildirimlerine göre güncellenmiştir.
+
+BÖLÜM 1 – GENEL SERVİS SORULARI
+
+1. Servis randevumu nasıl oluşturabilirim?
+Randevu oluşturmak için web sitemiz (www.teknikserviskolay.com.tr) üzerinden “Randevu Al” butonuna tıklayarak gerekli bilgileri doldurmanız yeterlidir. Dilerseniz 444 9 585 numaralı çağrı merkezimizden de randevu oluşturabilirsiniz.
+
+2. Randevu saatinde teknisyen gelmezse ne yapmalıyım?
+Randevu saatinizde 15 dakika içinde teknisyen gelmemişse çağrı merkezimizi arayarak bilgi alabilirsiniz. Sistemimiz teknisyen konumunu otomatik takip eder ve gecikmeler tarafınıza SMS ile bildirilir.
+
+3. Servis ücretli mi?
+Garanti kapsamındaki cihazlara yapılan işlemler ücretsizdir. Garanti dışı cihazlar için servis bedeli, arıza tespiti yapıldıktan sonra müşteriye bildirilir ve onay alınmadan işlem yapılmaz.
+
+4. Servis geldiğinde evde yoksam ne olur?
+Teknisyen kapınıza geldiğinde size 5 dakika ulaşamazsa servis “ulaşılamadı” statüsüne alınır ve yeni bir randevu oluşturmanız gerekir. Bu durumda servis ücreti alınmaz ancak işlem gecikir.
+
+BÖLÜM 2 – GARANTİ VE BELGELER
+
+5. Garanti süremi nasıl öğrenebilirim?
+Cihazınızın faturasındaki tarih esas alınarak garanti süresi başlar. Web sitemizdeki “Garanti Sorgula” bölümünden seri numarası girerek garanti sürenizi öğrenebilirsiniz.
+
+6. Garanti belgem kayboldu, ne yapabilirim?
+Garanti belgeleri dijital olarak arşivlenmektedir. Kimlik ve fatura bilgilerinizi ilettiğinizde tarafınıza yeniden gönderilir.
+
+7. Cihazım garanti kapsamı dışında kalmış, yine de yardımcı olabilir misiniz?
+Elbette. Garanti dışı cihazlar için ücretli servis hizmetimiz bulunmaktadır. Cihazın türüne göre en uygun çözüm önerisi sunulur ve fiyat onayınız alınmadan işlem yapılmaz.
+
+8. Garanti süresi ne zaman sona erer?
+Tüm cihazlar için yasal garanti süresi 2 yıldır. Ancak uzatılmış garanti paketleri ile bu süre 5 yıla kadar çıkabilir. Uzatılmış garanti başvuruları için web sitemizi inceleyin.
+
+BÖLÜM 3 – DESTEK KANALLARI
+
+9. Canlı destek sisteminiz var mı?
+Evet. Web sitemizin sağ alt köşesindeki “Canlı Destek” butonuna tıklayarak anlık olarak teknik personelimizle yazışabilirsiniz. Hafta içi 09:00–20:00 arası aktiftir.
+
+10. Sosyal medya üzerinden destek alabilir miyim?
+Instagram ve X (eski Twitter) sayfalarımızdan mesaj göndererek destek talebinde bulunabilirsiniz. Cevap süresi maksimum 2 saattir.
+
+11. Belgeleri e-posta ile alabilir miyim?
+Evet. Servis sonrası raporlar, fatura örnekleri ve garanti belgeleri talebiniz üzerine e-posta adresinize PDF olarak gönderilir.
+
+12. Teknisyenlere nasıl ulaşırım?
+Gizlilik politikamız gereği teknisyen doğrudan aranamaz. Ancak çağrı merkezinden teknisyenle iletişime geçilerek sorunuz kendisine iletilebilir.
+
+BÖLÜM 4 – ÖDEME VE FATURALANDIRMA
+
+13. Ödemeleri nasıl yapabilirim?
+Servis sonrası ödeme kredi kartı ile POS cihazı üzerinden yapılabilir. Bazı durumlarda banka havalesi de kabul edilmektedir.
+
+14. Fatura ne zaman kesilir?
+İşlem tamamlandıktan sonra sistemimiz otomatik olarak e-fatura düzenler. E-faturanız 24 saat içinde e-posta adresinize gönderilir.
+
+15. Faturada hata varsa ne yapmalıyım?
+444 9 585 numaralı çağrı merkezimizi arayarak fatura itirazı başvurusunda bulunabilirsiniz. Hatalı fatura iptal edilir ve yeni fatura düzenlenir.
+
+BÖLÜM 5 – MÜŞTERİ MEMNUNİYETİ VE ŞİKAYETLER
+
+16. Hizmetten memnun kalmazsam ne yapabilirim?
+Tüm şikayetler doğrudan kalite güvence birimimize iletilir. www.teknikserviskolay.com.tr/sikayet adresinden detaylı bildirim yapabilirsiniz.
+
+17. Şikayetim ne zaman sonuçlanır?
+Tüm müşteri şikayetleri maksimum 3 iş günü içinde sonuçlandırılır. Size yazılı ve/veya telefonla geri dönüş yapılır.
+
+18. Memnuniyet anketine neden katılmalıyım?
+Anket sonuçları hizmet kalitemizin en önemli geri bildirim kaynağıdır. Anket dolduran müşterilerimiz dönemsel çekilişlere katılma hakkı kazanır.
+
+BÖLÜM 6 – DİJİTAL HİZMETLER
+
+19. Cihazımı web sitesi üzerinden takip edebilir miyim?
+Evet. “Servis Takip” ekranından randevu durumu, teknisyen konumu ve işlem durumu anlık olarak görüntülenebilir.
+
+20. Mobil uygulamanız var mı?
+iOS ve Android için TeknikServisKolay Mobil Uygulaması mevcuttur. Randevu alma, ödeme yapma ve arıza bildirimi gibi işlemleri kolaylaştırır.
+
+BÖLÜM 7 – DİĞER
+
+21. Eski cihazımı alıyor musunuz?
+Belirli dönemlerde eski cihazlar için “Eskiyi Getir, Yeniyi Götür” kampanyaları düzenlenmektedir. Kampanya detayları sosyal medya hesaplarımızdan duyurulur.
+
+22. Cihazım farklı bir şehirde, oraya servis verir misiniz?
+81 ilde anlaşmalı servis ağımız vardır. Web sitemizden bulunduğunuz konumu girerek en yakın servisi görüntüleyebilirsiniz.
+
+23. Randevumu nasıl iptal edebilirim?
+Randevu saatinden en az 2 saat önce web sitesi veya çağrı merkezi üzerinden iptal işlemi yapılmalıdır.
+
+24. Servis sonrası raporu alamadım, nasıl ulaşabilirim?
+Çağrı merkezine başvurarak işlem numaranızı belirtmeniz yeterlidir. Belge 5 dakika içinde yeniden e-posta olarak gönderilir.
+
+25. Sitede aradığım bilgi yoksa ne yapmalıyım?
+Canlı destekten yazabilir veya bilgi@teknikserviskolay.com.tr adresine e-posta gönderebilirsiniz. Tüm talepler maksimum 1 iş günü içinde yanıtlanır.
