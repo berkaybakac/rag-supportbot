@@ -47,6 +47,7 @@ Not: Tüm işlemler llama.cpp altyapısı ile tamamen cihaz üstünde (offline) 
 
 > Not: Daha yeni `llama-index` sürümleri (ör. 0.13.0) modüler yapıya geçtiğinden import hataları oluşmuştur. Bu nedenle `0.9.48` sürümüne geri dönülmüştür.
 
+
 ## Proje Dizini: `rag-supportbot/`
 
 ```
@@ -145,6 +146,7 @@ Bu veriler, gelecekte performans analizi ve sistem eğitimi için kullanılabili
 | 4 | Streamlit UI ve logging | 9–10 Ağustos |
 | 5 | LangChain modülleri: rewrite, grader | 11–13 Ağustos |
 | 6 | Test, sunum, optimizasyon | 14 Ağustos |
+
 
 ## Gelecek Yol Haritası (v2)
 
