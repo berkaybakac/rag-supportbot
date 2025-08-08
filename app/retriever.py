@@ -10,42 +10,61 @@ from llama_index.embeddings import HuggingFaceEmbedding
 from llama_index.text_splitter import SentenceSplitter
 from llama_index.schema import NodeWithScore
 
+# Bu satır, kütüphane versiyonuna özel olarak düzenlenmiştir
+from llama_index.indices.query.schema import QueryBundle
+from llama_index.postprocessor import SentenceTransformerRerank
+from llama_index.query_engine import RetrieverQueryEngine
+
 
 class DocumentRetriever:
+
     def __init__(
         self,
         persist_dir: str = "db/faiss_index",
         embedding_model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
+        rerank_model_name: str = "BAAI/bge-reranker-base",  # Reranker modeli güncellendi
         chunk_size: int = 500,
-        top_k: int = 3,
+        top_k_retrieval: int = 10,  # Retriever için daha fazla parça
+        top_k_rerank: int = 2,  # Reranker ile en iyi 2 parça
     ):
-        self.top_k = top_k
+        self.top_k_retrieval = top_k_retrieval
+        self.top_k_rerank = top_k_rerank
         self.persist_dir = persist_dir
 
-        # Embedding modeli
-        embed_model = HuggingFaceEmbedding(model_name=embedding_model_name)
-
-        # Chunk yapısı (gerekirse yeniden kullanılır)
-        text_splitter = SentenceSplitter(chunk_size=chunk_size, chunk_overlap=50)
+        self.embed_model = HuggingFaceEmbedding(model_name=embedding_model_name)
+        self.text_splitter = SentenceSplitter(chunk_size=chunk_size, chunk_overlap=50)
 
         self.service_context = ServiceContext.from_defaults(
-            embed_model=embed_model,
-            text_splitter=text_splitter,
+            embed_model=self.embed_model,
+            text_splitter=self.text_splitter,
         )
 
-        # FAISS index'i yükle
-        storage_context = StorageContext.from_defaults(persist_dir=persist_dir)
-        self.index = load_index_from_storage(
-            storage_context=storage_context,
-            service_context=self.service_context,
+        try:
+            storage_context = StorageContext.from_defaults(persist_dir=persist_dir)
+            self.index = load_index_from_storage(
+                storage_context=storage_context,
+                service_context=self.service_context,
+            )
+        except Exception as e:
+            print(
+                f"Hata: İndeks yüklenemedi. 'embedder.py' dosyasını çalıştırdığınızdan emin olun. Hata: {e}"
+            )
+            raise e
+
+        self.retriever = self.index.as_retriever(similarity_top_k=self.top_k_retrieval)
+
+        self.reranker = SentenceTransformerRerank(
+            model=rerank_model_name,
+            top_n=self.top_k_rerank,
         )
 
-        # Sorgulayıcı (query engine)
-        self.query_engine = self.index.as_query_engine(similarity_top_k=top_k)
+        self.query_engine = RetrieverQueryEngine.from_args(
+            self.retriever, node_postprocessors=[self.reranker]
+        )
 
     def retrieve(self, query: str) -> List[NodeWithScore]:
-        """Verilen sorguya en uygun belge parçalarını döndürür"""
-        results = self.query_engine.retrieve(query)
+        query_bundle = QueryBundle(query_str=query)
+        results = self.query_engine.retrieve(query_bundle)
         return results
 
 
@@ -54,8 +73,8 @@ if __name__ == "__main__":
     query = input("Soru girin: ")
     results = retriever.retrieve(query)
 
-    print("\nEn Benzer Belgeler:")
+    print("\nEn Benzer ve Yeniden Sıralanmış Belgeler:")
     for i, node in enumerate(results):
         print(f"\n--- Parça {i+1} ---")
-        print(node.text[:500])
+        print(node.text)
         print(f"\nSkor: {node.score:.4f}")

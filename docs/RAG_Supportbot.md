@@ -14,6 +14,8 @@ RAG mimarisi sayesinde:
 - AI’ın uydurma (hallucination) riski azaltılır.  
 - Destek personelinin yükü hafifler, bilgiye erişim süresi kısalır.
 
+
+
 ## Önceki Görevlerle Bağlantı
 
 | Görev | Açıklama | Bu Projeyle İlişkisi |
@@ -138,14 +140,40 @@ Bu veriler, gelecekte performans analizi ve sistem eğitimi için kullanılabili
 
 ## Yol Haritası
 
-| Aşama | İçerik | Tahmini Tarih |
-|-------|--------|----------------|
-| 1 | Proje kurulumu, veri seti hazırlığı | 5 Ağustos |
-| 2 | Embedding + FAISS + LlamaIndex kurulumu | 6 Ağustos |
-| 3 | MVP: retriever + generator | 7–8 Ağustos |
-| 4 | Streamlit UI ve logging | 9–10 Ağustos |
-| 5 | LangChain modülleri: rewrite, grader | 11–13 Ağustos |
-| 6 | Test, sunum, optimizasyon | 14 Ağustos |
+### MVP Aşaması
+1. **Proje Kurulumu ve Veri Seti Hazırlığı**  
+   Gerekli klasör yapısı oluşturulur, test amaçlı teknik servis belgeleri (`.txt`, `.pdf`, `.md`) `data/` klasörüne eklenir.
+
+2. **Embedding + FAISS + LlamaIndex Kurulumu**  
+   Belgeler parçalara ayrılır (chunking), `sentence-transformers/all-MiniLM-L6-v2` modeli ile embedding yapılır ve FAISS vektör veritabanına kaydedilir.
+
+3. **Retriever ve LLM Entegrasyonu**  
+   Kullanıcı sorularını embedding’e çeviren retriever ile OpenRouter API üzerinden LLM’e bağlanan `llm_generator.py` modülü devreye alınır.
+
+4. **Streamlit UI ve Logging**  
+   Kullanıcı arayüzü geliştirilir, her soru-cevap oturumu `logs/` klasörüne kayıt altına alınır.
+
+5. **Temel Test ve Optimizasyon**  
+   Test belgeleri üzerinden sistem performansı ölçülür, parametre ayarları (chunk_size, top_k, temperature vb.) optimize edilir.
+
+### Gelişmiş Aşama (v2)
+1. **Query Rewriting**  
+   Eksik veya belirsiz soruların LangChain ile yeniden yazılması.
+
+2. **Belge Kalite Grading**  
+   Getirilen belgelerin LLM ile uygunluk değerlendirmesi ve alakasız belgelerin elenmesi.
+
+3. **Fallback Router**  
+   Cevap üretilemediğinde alternatif sorgu oluşturma veya kullanıcıya bilgi yetersizliği mesajı verme.
+
+4. **Multi-Query Retrieval**  
+   Aynı sorunun farklı biçimlerde yazılarak birleştirilmiş sonuçların getirilmesi.
+
+5. **Gelişmiş UI Özellikleri**  
+   Arama geçmişi görüntüleme, kaynak filtreleme, belge önizleme gibi ek kullanıcı deneyimi geliştirmeleri.
+
+6. **Performans ve Ölçeklenebilirlik İyileştirmeleri**  
+   Büyük veri setlerinde hız optimizasyonu, gelişmiş indeksleme teknikleri (ör. Raptor Indexing) ve uzun bağlam desteği.
 
 
 ## Gelecek Yol Haritası (v2)
@@ -168,6 +196,6 @@ Bu veriler, gelecekte performans analizi ve sistem eğitimi için kullanılabili
 | Geliştirilebilir yapı mı? | LangChain ile genişlemeye uygun mu? |
 | MVP + Gelişmiş akış ayrımı net mi? | MVP sade, v2 planı yol haritasına sahip mi? |
 
-## Kurula Sunum Cümlesi
+## Genel Özet
 
 Bu projede teknik servis süreçlerine yardımcı olan, belge temelli bilgi sağlayan bir yapay zeka asistanı geliştirdim. RAG mimarisi sayesinde sistem sadece cevap üretmekle kalmıyor, cevabın dayandığı belge parçasını da kullanıcıya sunuyor. Gelişmiş senaryolarda LangChain kullanılarak sorgu yazımı, belge puanlama ve fallback gibi üretim kalitesinde bileşenlerle desteklenmiştir. Sistem tamamen açık kaynak, cihaz üstü çalışır ve genişletilmeye uygundur.

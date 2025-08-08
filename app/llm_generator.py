@@ -16,16 +16,20 @@ load_dotenv()
 # OpenRouter ayarları
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 API_KEY = os.getenv("OPENROUTER_API_KEY")
+
+# Sistem Prompt'unu biraz daha kesin hale getirelim
 SYSTEM_PROMPT = (
-    "Sen bir teknik destek yapay zekasısın. Verilen belge parçalarına göre kullanıcı sorusunu cevapla.\n"
-    "Belge dışı bilgi verme, yorum yapma. Kaynakları referans göster."
+    "Sen bir teknik destek yapay zekasısın. Görevin, YALNIZCA sana sağlanan belgelerden yola çıkarak kullanıcı sorusunu cevaplamaktır.\n"
+    "ASLA belge dışında bilgi verme, varsayımda bulunma veya yorum yapma.\n"
+    "Cevabının sonunda, kullandığın belge referansını [Kaynak: Belge Adı] şeklinde belirt.\n"
+    "Eğer sorunun cevabı sağlanan belgelerde yoksa, kibarca 'Bu sorunun cevabı elimdeki belgelerde bulunmamaktadır.' diye yanıt ver."
 )
 
 
 def generate_answer(
     question: str,
     contexts: List[NodeWithScore],
-    model_name: str = "meta-llama/llama-3-8b-instruct",  # önerilen model
+    model_name: str = "meta-llama/llama-3-8b-instruct",
 ) -> str:
     if not API_KEY:
         raise ValueError("API anahtarı bulunamadı. .env dosyasını kontrol et.")
@@ -45,14 +49,14 @@ def generate_answer(
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt},
         ],
-        "temperature": 0.7,
+        "temperature": 0.3,  # Daha az 'yaratıcı' ve daha gerçekçi bir cevap için sıcaklığı düşürelim
         "max_tokens": 768,
     }
 
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://github.com/berkaybakac/rag-supportbot",  # zorunlu
+        "HTTP-Referer": "https://github.com/berkaybakac/rag-supportbot",
     }
 
     # İstek
