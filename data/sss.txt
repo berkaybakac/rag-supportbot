@@ -1,93 +1,48 @@
+Belge No: MT-VP-SSS-005
+Tarih: 08.08.2025
+Kapsam: VortexPro Serisi (VP7xx, VP8xx, VP9xx) Çamaşır Makineleri Sıkça Sorulan Sorular
 
-SIKÇA SORULAN SORULAR (SSS)
+1. Giriş
+Bu belge, Meridian Teknik Servis bünyesinde görev yapan L1 çağrı merkezi, L2 saha teknisyeni ve L3 merkez teknik uzman personeli için VortexPro Serisi çamaşır makineleriyle ilgili müşterilerden en sık gelen sorulara ve bunların standart cevaplarına ilişkin bir kılavuz niteliğindedir. Bu kılavuz, özellikle L1 çağrı merkezi personelinin müşteri sorularını hızlı ve doğru bir şekilde yanıtlamasını sağlayarak gereksiz saha ziyaretlerini en aza indirmeyi ve müşteri memnuniyetini artırmayı amaçlamaktadır. Tüm personel, bu belgedeki bilgileri müşteri iletişiminde tutarlı bir şekilde kullanmalıdır. Bu doküman, teknik arızaların yanı sıra, operasyonel ve kullanım kaynaklı soruları da kapsamaktadır.
 
-Bu belge, TeknikServisKolay A.Ş. tarafından müşterilerden en sık alınan soruları, cevaplarını ve olası yönlendirmeleri içermektedir. Belgede yer alan sorular, çağrı merkezi kayıtları, saha teknisyeni raporları ve çevrim içi destek sistemi üzerinden toplanmış, müşteri geri bildirimlerine göre güncellenmiştir.
-
-BÖLÜM 1 – GENEL SERVİS SORULARI
-
-1. Servis randevumu nasıl oluşturabilirim?
-Randevu oluşturmak için web sitemiz (www.teknikserviskolay.com.tr) üzerinden “Randevu Al” butonuna tıklayarak gerekli bilgileri doldurmanız yeterlidir. Dilerseniz 444 9 585 numaralı çağrı merkezimizden de randevu oluşturabilirsiniz.
-
-2. Randevu saatinde teknisyen gelmezse ne yapmalıyım?
-Randevu saatinizde 15 dakika içinde teknisyen gelmemişse çağrı merkezimizi arayarak bilgi alabilirsiniz. Sistemimiz teknisyen konumunu otomatik takip eder ve gecikmeler tarafınıza SMS ile bildirilir.
-
-3. Servis ücretli mi?
-Garanti kapsamındaki cihazlara yapılan işlemler ücretsizdir. Garanti dışı cihazlar için servis bedeli, arıza tespiti yapıldıktan sonra müşteriye bildirilir ve onay alınmadan işlem yapılmaz.
-
-4. Servis geldiğinde evde yoksam ne olur?
-Teknisyen kapınıza geldiğinde size 5 dakika ulaşamazsa servis “ulaşılamadı” statüsüne alınır ve yeni bir randevu oluşturmanız gerekir. Bu durumda servis ücreti alınmaz ancak işlem gecikir.
-
-BÖLÜM 2 – GARANTİ VE BELGELER
-
-5. Garanti süremi nasıl öğrenebilirim?
-Cihazınızın faturasındaki tarih esas alınarak garanti süresi başlar. Web sitemizdeki “Garanti Sorgula” bölümünden seri numarası girerek garanti sürenizi öğrenebilirsiniz.
-
-6. Garanti belgem kayboldu, ne yapabilirim?
-Garanti belgeleri dijital olarak arşivlenmektedir. Kimlik ve fatura bilgilerinizi ilettiğinizde tarafınıza yeniden gönderilir.
-
-7. Cihazım garanti kapsamı dışında kalmış, yine de yardımcı olabilir misiniz?
-Elbette. Garanti dışı cihazlar için ücretli servis hizmetimiz bulunmaktadır. Cihazın türüne göre en uygun çözüm önerisi sunulur ve fiyat onayınız alınmadan işlem yapılmaz.
-
-8. Garanti süresi ne zaman sona erer?
-Tüm cihazlar için yasal garanti süresi 2 yıldır. Ancak uzatılmış garanti paketleri ile bu süre 5 yıla kadar çıkabilir. Uzatılmış garanti başvuruları için web sitemizi inceleyin.
-
-BÖLÜM 3 – DESTEK KANALLARI
-
-9. Canlı destek sisteminiz var mı?
-Evet. Web sitemizin sağ alt köşesindeki “Canlı Destek” butonuna tıklayarak anlık olarak teknik personelimizle yazışabilirsiniz. Hafta içi 09:00–20:00 arası aktiftir.
-
-10. Sosyal medya üzerinden destek alabilir miyim?
-Instagram ve X (eski Twitter) sayfalarımızdan mesaj göndererek destek talebinde bulunabilirsiniz. Cevap süresi maksimum 2 saattir.
-
-11. Belgeleri e-posta ile alabilir miyim?
-Evet. Servis sonrası raporlar, fatura örnekleri ve garanti belgeleri talebiniz üzerine e-posta adresinize PDF olarak gönderilir.
-
-12. Teknisyenlere nasıl ulaşırım?
-Gizlilik politikamız gereği teknisyen doğrudan aranamaz. Ancak çağrı merkezinden teknisyenle iletişime geçilerek sorunuz kendisine iletilebilir.
-
-BÖLÜM 4 – ÖDEME VE FATURALANDIRMA
-
-13. Ödemeleri nasıl yapabilirim?
-Servis sonrası ödeme kredi kartı ile POS cihazı üzerinden yapılabilir. Bazı durumlarda banka havalesi de kabul edilmektedir.
-
-14. Fatura ne zaman kesilir?
-İşlem tamamlandıktan sonra sistemimiz otomatik olarak e-fatura düzenler. E-faturanız 24 saat içinde e-posta adresinize gönderilir.
-
-15. Faturada hata varsa ne yapmalıyım?
-444 9 585 numaralı çağrı merkezimizi arayarak fatura itirazı başvurusunda bulunabilirsiniz. Hatalı fatura iptal edilir ve yeni fatura düzenlenir.
-
-BÖLÜM 5 – MÜŞTERİ MEMNUNİYETİ VE ŞİKAYETLER
-
-16. Hizmetten memnun kalmazsam ne yapabilirim?
-Tüm şikayetler doğrudan kalite güvence birimimize iletilir. www.teknikserviskolay.com.tr/sikayet adresinden detaylı bildirim yapabilirsiniz.
-
-17. Şikayetim ne zaman sonuçlanır?
-Tüm müşteri şikayetleri maksimum 3 iş günü içinde sonuçlandırılır. Size yazılı ve/veya telefonla geri dönüş yapılır.
-
-18. Memnuniyet anketine neden katılmalıyım?
-Anket sonuçları hizmet kalitemizin en önemli geri bildirim kaynağıdır. Anket dolduran müşterilerimiz dönemsel çekilişlere katılma hakkı kazanır.
-
-BÖLÜM 6 – DİJİTAL HİZMETLER
-
-19. Cihazımı web sitesi üzerinden takip edebilir miyim?
-Evet. “Servis Takip” ekranından randevu durumu, teknisyen konumu ve işlem durumu anlık olarak görüntülenebilir.
-
-20. Mobil uygulamanız var mı?
-iOS ve Android için TeknikServisKolay Mobil Uygulaması mevcuttur. Randevu alma, ödeme yapma ve arıza bildirimi gibi işlemleri kolaylaştırır.
-
-BÖLÜM 7 – DİĞER
-
-21. Eski cihazımı alıyor musunuz?
-Belirli dönemlerde eski cihazlar için “Eskiyi Getir, Yeniyi Götür” kampanyaları düzenlenmektedir. Kampanya detayları sosyal medya hesaplarımızdan duyurulur.
-
-22. Cihazım farklı bir şehirde, oraya servis verir misiniz?
-81 ilde anlaşmalı servis ağımız vardır. Web sitemizden bulunduğunuz konumu girerek en yakın servisi görüntüleyebilirsiniz.
-
-23. Randevumu nasıl iptal edebilirim?
-Randevu saatinden en az 2 saat önce web sitesi veya çağrı merkezi üzerinden iptal işlemi yapılmalıdır.
-
-24. Servis sonrası raporu alamadım, nasıl ulaşabilirim?
-Çağrı merkezine başvurarak işlem numaranızı belirtmeniz yeterlidir. Belge 5 dakika içinde yeniden e-posta olarak gönderilir.
-
-25. Sitede aradığım bilgi yoksa ne yapmalıyım?
-Canlı destekten yazabilir veya bilgi@teknikserviskolay.com.tr adresine e-posta gönderebilirsiniz. Tüm talepler maksimum 1 iş günü içinde yanıtlanır.
+2. Sıkça Sorulan Teknik ve Kullanım Soruları
+Soru: Cihazım E01 hatası veriyor ve kapak kilitlenmiyor. Ne yapmalıyım?
+Cevap:
+L1 Çağrı Merkezi: Müşteriden öncelikle kapak kilidinin fiziksel olarak engellenip engellenmediğini kontrol etmesini isteyin. Kapak etrafında sıkışmış bir çamaşır parçası veya yabancı bir cisim olabilir. Ardından, cihazın fişini çekip 1 dakika beklemesini ve tekrar takmasını önerin. Bu basit resetleme işlemi, geçici bir elektronik hatayı giderebilir. Eğer hata devam ediyorsa, kapak kilidi mekanizmasında bir sorun olma ihtimali yüksektir. Durum için bir saha teknisyeni yönlendirmesi için kayıt oluşturulmalıdır.
+L2 Saha Teknisyeni: Adreste, kapı kilidi mekanizmasını (KL-VP-01) ve bağlantılarını kontrol edin. Multimetre ile mikro anahtarın sağlam olduğunu doğrulayın. Fiziksel bir engel yoksa ve anahtar arızalıysa, parçayı değiştirin. Bağlantı kablolarını (harness) kontrol etmeyi unutmayın.
+Soru: Makinem su almıyor ve E02 hatası veriyor.
+Cevap:
+L1 Çağrı Merkezi: Müşteriden ilk olarak su musluğunun açık olduğundan ve su giriş hortumunda herhangi bir bükülme veya kıvrılma olmadığından emin olmasını isteyin. Ardından, su giriş hortumunun cihazla olan bağlantı noktasındaki filtreyi temizlemesini önerin. Tıkanmış bir filtre su akışını engelleyebilir. Eğer bu adımlar sorunu çözmezse, su giriş valfinde (SV-VP-02) bir arıza olabilir. Saha teknisyeni yönlendirilmelidir.
+L2 Saha Teknisyeni: Su basıncını kontrol edin. Su valfinin bobin dirençlerini ölçerek çalışıp çalışmadığını doğrulayın. Valfte veya hava basınç sensöründe (SS-VP-03) bir arıza varsa, ilgili parçayı değiştirin.
+Soru: Makinem su boşaltmıyor ve E03 hatası gösteriyor.
+Cevap:
+L1 Çağrı Merkezi: Müşteriye, cihazın ön alt kısmında bulunan pompa filtresini kontrol etmesini söyleyin. Filtrenin tıkanmış olup olmadığını veya içine yabancı bir cisim (düğme, para vb.) sıkışıp sıkışmadığını kontrol etmesini isteyin. Bu işlemi yaparken, taşabilecek suyu toplamak için altına bir kap koymasını hatırlatın. Ayrıca tahliye hortumunun bükülmediğinden ve giderin tıkalı olmadığından emin olmasını isteyin. Eğer sorun devam ederse, tahliye pompasında (TP-VP-04) bir arıza olabilir. Saha teknisyeni yönlendirilmelidir.
+L2 Saha Teknisyeni: Tahliye pompasının pervanesini kontrol edin. Fiziksel bir engel olup olmadığını ve pervanenin serbestçe dönüp dönmediğini doğrulayın. Pompanın bobin dirençlerini ölçün. Gerekirse tahliye pompasını değiştirin.
+Soru: Cihazım suyu ısıtmıyor ve E04 hatası veriyor.
+Cevap:
+L1 Çağrı Merkezi: Müşteriye farklı bir yıkama programı denemesini önerin. Sorun devam ederse, arızanın ısıtıcı rezistansta (R-VP-05) veya sıcaklık sensöründe (T-VP-06) olabileceği bilgisini vererek servis kaydı oluşturun.
+L2 Saha Teknisyeni: Multimetre ile rezistansın ve NTC sıcaklık sensörünün dirençlerini ölçün. Direnç değerleri teknik kılavuzda belirtilen aralıkların dışındaysa, arızalı parçayı değiştirin.
+Soru: Sıkma sırasında makine çok sesli çalışıyor veya hareket ediyor.
+Cevap:
+L1 Çağrı Merkezi: Müşteriden ilk olarak cihazın ayarlanabilir ayaklarının zemine tam olarak temas edip etmediğini ve cihazın sallanıp sallanmadığını kontrol etmesini isteyin. Ayrıca, tamburun içine çamaşırları eşit şekilde dağıtarak deneme yapmasını önerin. Eğer sorun devam ederse, cihazın amortisörlerinde (A-VP-09) veya tambur yataklarında (TB-VP-10) bir arıza olabilir. Bu durum, ciddi bir teknik müdahale gerektirir. Saha teknisyeni yönlendirilmelidir.
+L2 Saha Teknisyeni: Cihazın ayak ayarlarını su terazisi ile kontrol edin ve gerekirse düzeltin. Arka paneli sökerek amortisörlerin durumunu ve tambur yataklarının sesini kontrol edin. Anormal bir ses veya direncini kaybetmiş amortisörler tespit edilirse, ilgili parçaları değiştirin.
+3. Sıkça Sorulan Operasyonel ve Garanti Soruları
+Soru: Cihazımın garantisi devam ediyor mu? Nasıl kontrol edebilirim?
+Cevap:
+L1 Çağrı Merkezi: Cihazın garanti süresini kontrol etmek için bize cihazın seri numarası ve satın alma faturası veya garanti belgesi üzerindeki tarih bilgisini iletmeniz yeterlidir. Sistemimizden kontrol sağlayabiliriz. Meridian Teknik Servis olarak VortexPro Serisi için 3 yıl garanti hizmeti sunmaktayız. Garantinin geçerliliği için yetkili servisimiz dışında müdahale edilmemiş olması gerekmektedir.
+L2 Saha Teknisyeni: Adreste, müşterinin ibraz ettiği faturayı ve cihaz üzerindeki seri numarasını kontrol edin. "MT-VP-GS-002 Garanti Şartları" belgesindeki şartlara uyulduğunu doğrulayın. Cihazda yetkisiz müdahale belirtisi varsa, durumu müşteriye bildirin ve garanti dışı işlem prosedürlerini uygulayın.
+Soru: Servis randevumu iptal etmek veya değiştirmek istiyorum. Ne yapmalıyım?
+Cevap:
+L1 Çağrı Merkezi: Servis randevunuzu değiştirmek veya iptal etmek için bizi randevu saatinizden en az 2 saat önce aramanız gerekmektedir. Bu durumda, talebiniz operasyonel planlamamızı etkilemeden kolayca işleme alınabilir. Randevunuza 2 saatten az bir süre kala yapılan değişiklikler "geç iptal" olarak değerlendirilir. Bu durumda, yeni randevunuzun önceliklendirilmesi mevcut yoğunluğa bağlı olacaktır. Lütfen "MT-VP-İP-003 İptal Kuralları" belgesini referans alınız.
+Soru: Servis teknisyeniniz adrese geldiğinde benden bir ücret talep eder mi?
+Cevap:
+L1 Çağrı Merkezi: Cihazınızın arızası garanti kapsamında ise, yedek parça ve işçilik için herhangi bir ücret talep edilmeyecektir. Ancak, "MT-VP-GS-002 Garanti Şartları" belgesinde belirtilen kullanıcı hatası (düşme, darbe, yanlış kullanım) veya yetkisiz müdahale gibi durumlarda, arıza garanti kapsamı dışında kalır ve onarım ücretli olur. Teknisyenimiz, onarım öncesinde size maliyet hakkında detaylı bilgi verecek ve onayınızı alacaktır.
+L2 Saha Teknisyeni: Adreste arıza tespiti sonrasında, eğer durum garanti dışı ise, müşteriye nedenini ve onarım maliyetini net bir şekilde açıklayın. Müşteri onayı almadan ücretli bir işleme başlamayın ve bu durumu servis formuna detaylıca not edin.
+4. Ek Bilgiler ve Tavsiyeler
+Soru: VortexPro çamaşır makinelerinin kullanım ömrü ne kadardır?
+Cevap:
+L1 Çağrı Merkezi: VortexPro serisi çamaşır makinelerimizin yasal garanti süresi 3 yıl olsa da, düzenli bakım ve doğru kullanım koşullarında cihazın ömrü ortalama 10 yılı bulabilmektedir. Müşterilere düzenli filtre temizliği yapmalarını ve kullanım kılavuzuna uymalarını tavsiye ederiz.
+L2 Saha Teknisyeni: Cihazın ömrünü uzatmak için düzenli bakımların (tambur temizliği, filtre temizliği) önemini müşteriye vurgulayın. Ayrıca, makinenin aşırı yüklenmemesi ve uygun deterjan kullanımı gibi konular hakkında bilgilendirme yapın.
+Soru: VortexPro çamaşır makinemdeki yazılım nasıl güncellenir?
+Cevap:
+L3 Merkez Teknik Uzmanı: Cihazın yazılımı, ancak bir arıza durumu söz konusu olduğunda veya performans iyileştirmeleri için Meridian Teknik Servis yetkili personeli tarafından güncellenir. Bu işlem, özel yazılım yükleme araçları kullanılarak yapılır ve kullanıcının kendisinin yapabileceği bir işlem değildir.

@@ -1,113 +1,270 @@
-
-ARIZA KODLARI VE TEKNİK AÇIKLAMALAR
-
-Bu belge, TeknikServisKolay A.Ş. tarafından hizmet verilen cihazlarda en sık karşılaşılan arıza kodlarının açıklamalarını, çözüm önerilerini ve vaka örneklerini içermektedir. Belge, teknik servis çalışanları ve çağrı merkezi personeli tarafından kullanılmak üzere hazırlanmıştır.
-
-BÖLÜM 1 – KODLAMA STANDARTLARI
-
-- Tüm kodlar "ERR" veya "F" ile başlar ve sayısal bir değer içerir.
-- Kodlar cihazın marka/modeline göre farklılık gösterebilir, ancak çoğu kod uluslararası kabul görmüş standartlara dayanır.
-- Aynı cihaz türü (ör. kombi, klima, çamaşır makinesi) için farklı üreticilerin kullandığı kodlar değişebilir; bu nedenle üreticiye özel açıklamalar ayrıca belirtilmiştir.
-
-BÖLÜM 2 – ARIZA KODLARI
-
-1. ERR01 – Alev Algılanmıyor (Kombi)
-Açıklama: Brülör çalışmasına rağmen iyonizasyon çubuğu alev algılamıyor.
-Nedenleri:
-- Gaz valfi arızalı
-- İyonizasyon çubuğu kirli veya kopmuş
-- Ateşleme elektrodu çalışmıyor
-Çözüm:
-- Gaz valfi kontrol edilmeli
-- Elektroda ve iyonizasyon çubuğu temizlenmeli veya değiştirilmeli
-- Gerekirse anakart incelenmeli
-
-2. ERR02 – Düşük Su Basıncı (Kombi)
-Açıklama: Tesisat su basıncı 0.8 bar altına düştü.
-Nedenleri:
-- Su eksikliği
-- Su sızdıran radyatörler
-- Dolaşım pompasında hava
-Çözüm:
-- Sisteme su basılmalı (ideal basınç 1.5 bar)
-- Kaçak kontrolü yapılmalı
-
-3. F03 – Fan Hatası (Klima)
-Açıklama: İç ünite fan motoru dönmüyor veya düşük devirde takılı kaldı.
-Nedenleri:
-- Fan motoru arızalı
-- Motor kartı arızalı
-- Toz veya yabancı cisim sıkışması
-Çözüm:
-- Fan motoru ve kart test edilmeli
-- Fan pervanesi temizlenmeli
-
-4. F07 – Kompresör Koruma Modu (Klima)
-Açıklama: Aşırı ısı veya voltaj dalgalanması nedeniyle kompresör kendini korumaya aldı.
-Nedenleri:
-- Gaz eksikliği
-- Dış ünite filtresi tıkalı
-- Kondansatör arızalı
-Çözüm:
-- Gaz basıncı kontrol edilmeli
-- Filtre temizlenmeli
-- Elektrik devresi ölçülmeli
-
-5. ERR10 – Kapı Kilit Hatası (Çamaşır Makinesi)
-Açıklama: Kapı kilidi 3 denemede de kapanmadı.
-Nedenleri:
-- Kilit mekanizması arızalı
-- Anakarttan sinyal gelmiyor
-- Kapı sensörü bozuk
-Çözüm:
-- Kapı kilidi değiştirilmeli
-- Bağlantı kabloları kontrol edilmeli
-
-...
-
-BÖLÜM 3 – MARKA/MODEL SPESİFİK KODLAR
-
-Aşağıdaki kodlar sadece TeknikServisKolay A.Ş.’nin yetkili olduğu özel cihaz serilerinde kullanılmaktadır.
-
-Boswin Kombi Serisi:
-- BOS-35: ERR35 – Aşırı Isınma, 90°C üstü
-- BOS-40: ERR40 – Sensör Arızası, NTÇ kısa devre
-
-Frigovent Klima Serisi:
-- FRV-10: F10 – Gaz Kaçağı Algılandı
-- FRV-15: F15 – Basınç Sensörü Hatası
-
-CleanWash Çamaşır Serisi:
-- CW-1000: ERR08 – Tahliye Pompası Tıkalı
-- CW-2000: ERR14 – Dengesiz Yük Algılandı
-
-...
-
-BÖLÜM 4 – TEKRAR EDEN VAKA ÖRNEKLERİ
-
-Vaka 1:
-Müşteri: "Kombi çalışıyor gibi ama ısınmıyoruz."
-Kod: ERR01
-Saha Kontrolü: İyonizasyon çubuğu tamamen kopmuş.
-Çözüm: Çubuk değiştirildi. Gaz valfi test edildi, sorun çözülerek sistem normale döndü.
-
-Vaka 2:
-Müşteri: "Klimada çalışmıyor ışık yanıyor ama üfleme yok."
-Kod: F03
-Saha Kontrolü: Fan motoruna enerji gitmiyor. Kartta yanık.
-Çözüm: Fan motoru ve kontrol kartı birlikte değiştirildi.
-
-...
-
-BÖLÜM 5 – SERVİS İŞ AKIŞINA ENTEGRASYON
-
-- Arıza kodu girildikten sonra otomatik çözüm önerisi çıkmalı.
-- Çağrı merkezi bu kodlara göre müşteriye ön bilgi verebilmeli.
-- Teknisyen mobil uygulamada bu kodları filtreleyerek ilgili yedek parçaları görebilmeli.
-- RAG sistemine arıza kodları girildiğinde, teknik dökümandan çözüm önerisi alınabilmeli.
-
-BÖLÜM 6 – GÜNCELLEME POLİTİKASI
-
-- Arıza kodları her çeyrek dönemde bir güncellenir.
-- Güncellemeler teknik yöneticiler tarafından yapılır.
-- Yeni cihaz serileri geldikçe kod listeleri genişletilir.
+Belge No: MT-VP-AK-001
+Tarih: 08.08.2025
+Kapsam: VortexPro Serisi (VP7xx, VP8xx, VP9xx) Çamaşır Makineleri Arıza Kodları ve Çözüm Adımları
+Giriş
+Bu belge, Meridian Teknik Servis bünyesinde görev yapan L1 çağrı merkezi, L2 saha teknisyeni ve L3 merkez teknik uzman personeli için VortexPro Serisi çamaşır makinelerinde karşılaşılan arıza kodlarının anlamlarını ve çözüm adımlarını detaylandırmaktadır. Bu kılavuz, arızaların hızlı ve doğru bir şekilde teşhis edilmesini ve giderilmesini sağlamak amacıyla hazırlanmıştır. Tüm personel, müşteri memnuniyetini en üst düzeyde tutmak için bu prosedürlere eksiksiz uymalıdır.
+NOT: Herhangi bir parça değişimi veya yazılımsal işlem öncesinde mutlaka yetkili servisin güncel prosedürlerine ve güvenlik talimatlarına uyulmalıdır. Yanlış müdahaleler, cihazda kalıcı hasarlara veya garanti dışı durumlara yol açabilir.
+Arıza Kodları ve Çözüm Prosedürleri
+E01: Kapak Kilidi Hatası
+Tanım: Cihaz, program başlangıcında veya yıkama sırasında kapak kilidini algılayamıyor.
+Olası Nedenler:
+Kapak tam kapanmamış.
+Kapı kilidi mekanizmasında fiziksel bir engel var.
+Kapı kilidi anahtarı (mikro anahtar) arızalı.
+Elektronik kontrol kartından (Main PCB) gelen sinyalde sorun var.
+Kablolama bağlantılarında kopukluk veya kısa devre mevcut.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden cihazın fişini çekip 1 dakika beklemesini ve tekrar takmasını isteyin.
+Kapağın tam olarak kapandığından ve kilitleme sesinin duyulduğundan emin olmasını söyleyin.
+Programı iptal edip tekrar başlatmasını tavsiye edin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin ve su girişini kapatın.
+Ön paneli sökerek kapı kilidi mekanizmasına erişin.
+Kapı kilidi mekanizmasını gözle kontrol edin. Fiziksel bir hasar veya engel olup olmadığını doğrulayın.
+Multimetre ile kapı kilidi anahtarının (parça kodu: KL-VP-01) pinlerini kontrol edin. Kapak kapalıyken kontakların kapalı, açıkken açık olması gerekir.
+Kablolama hattını (Harness) kontrol edin. Main PCB ile kapı kilidi arasındaki bağlantıların sağlam olduğundan emin olun.
+Eğer kablolamada veya Main PCB'de sorun yoksa, kapı kilidi mekanizmasını değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E02: Su Giriş Hatası
+Tanım: Belirlenen süre içinde cihazın tamburuna yeterli su alınamıyor.
+Olası Nedenler:
+Su musluğu kapalı veya su basıncı düşük.
+Su giriş hortumu bükülmüş veya tıkanmış.
+Giriş filtresi tıkanmış.
+Su alma ventili (su valfi) arızalı.
+Basınç sensörü (Pressure Switch) veya seviye sensörü (Level Sensor) arızalı.
+Elektronik kontrol kartından (Main PCB) gelen sinyalde sorun var.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden su musluğunun açık ve su basıncının normal olduğundan emin olmasını isteyin.
+Su giriş hortumunda bükülme veya kıvrılma olup olmadığını kontrol etmesini söyleyin.
+Cihazın fişini çekip su giriş hortumunu musluktan ayırmasını, filtresini temizlemesini ve tekrar takmasını tavsiye edin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin ve su girişini kapatın.
+Su musluğundaki basıncı kontrol edin. Gerekirse müşteriye tesisat kontrolü yapmasını önerin.
+Su giriş valfini sökün (parça kodu: SV-VP-02). Multimetre ile bobin dirençlerini kontrol edin (genellikle 2-4 kOhm arası). Eğer direnç sonsuzsa veya 0'a yakınsa parça arızalıdır.
+Su seviye sensörünü (parça kodu: SS-VP-03) kontrol edin. Hava tüpünde yırtık veya tıkanıklık olmadığından emin olun.
+Kablolama hattını kontrol edin. Valf ve sensörden Main PCB'ye giden bağlantıları doğrulayın.
+Parça arızası tespit edilirse, arıklı parçayı değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E03: Su Boşaltma Hatası
+Tanım: Belirlenen süre içinde cihazın içindeki su boşaltılamıyor.
+Olası Nedenler:
+Tahliye hortumu tıkanmış veya kıvrılmış.
+Pompa filtresi tıkanmış.
+Tahliye pompası arızalı.
+Basınç sensörü (Pressure Switch) veya seviye sensörü (Level Sensor) arızalı.
+Elektronik kontrol kartından (Main PCB) gelen sinyalde sorun var.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden tahliye hortumunun bükülmediğinden ve lavabo giderinin tıkanmadığından emin olmasını isteyin.
+Cihazın önündeki filtre kapağını açarak pompa filtresini temizlemesini tavsiye edin. Bu işlemi yaparken su taşmasına karşı önlem almasını (kaba koymasını) hatırlatın.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin ve su girişini kapatın.
+Ön alt paneli sökerek tahliye pompasına (parça kodu: TP-VP-04) erişin.
+Pompa filtresini temizleyin ve içindeki yabancı cisimleri kontrol edin.
+Tahliye pompasının pervanesini kontrol edin, dönüp dönmediğini manuel olarak kontrol edin.
+Multimetre ile tahliye pompasının bobinini kontrol edin (genellikle 15-25 Ohm arası). Direnç normal değilse pompa arızalıdır.
+Kablolama hattını kontrol edin. Pompadan Main PCB'ye giden bağlantıların sağlam olduğundan emin olun.
+Eğer tahliye pompası arızalıysa, pompayı değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E04: Isıtma Hatası
+Tanım: Belirlenen süre içinde yıkama suyunun istenilen sıcaklığa ulaşamaması.
+Olası Nedenler:
+Rezistans (Isıtıcı) arızalı.
+Termistör (NTC sensör) arızalı veya bağlantısı kopuk.
+Elektronik kontrol kartından (Main PCB) gelen sinyalde sorun var.
+Kablolama bağlantılarında kopukluk mevcut.
+Su seviyesi sensöründe yanlış okuma mevcut (yeterli su olmadığını zannediyor).
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden farklı bir programda deneme yapmasını isteyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun. Bu durumda müşteriye cihazı fişten çekmesini ve su girişini kapatmasını hatırlatın.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin ve su girişini kapatın.
+Arka veya alt paneli sökerek rezistansa (parça kodu: R-VP-05) ve termistöre (parça kodu: T-VP-06) erişin.
+Multimetre ile rezistansın direncini ölçün (genellikle 25-35 Ohm arası). Direnç sonsuzsa veya 0'a yakınsa rezistans arızalıdır.
+Multimetre ile termistörün direncini ölçün. Oda sıcaklığında (20-25°C) yaklaşık 20 kOhm direnç göstermelidir. Direnç değişimi su sıcaklığına bağlıdır; ısıtıldığında direnç düşer. Direnç okuması yoksa veya doğru değeri göstermiyorsa termistör arızalıdır.
+Kablolama hattını kontrol edin. Rezistans ve termistörden Main PCB'ye giden bağlantıları doğrulayın.
+Parça arızası tespit edilirse, arıklı parçayı değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E05: Motor Hatası
+Tanım: Motorun program döngüsü sırasında düzgün çalışmaması veya hiç çalışmaması.
+Olası Nedenler:
+Motorun kendisi arızalı (fırçalı motorlarda fırça aşınması, invertör motorlarda elektronik arıza).
+Tako jeneratör (RPM sensörü) arızalı.
+Kablolama bağlantılarında kopukluk veya kısa devre mevcut.
+Elektronik kontrol kartından (Main PCB) motor sürücü devresi arızalı.
+Motor kayışı kopmuş veya yerinden çıkmış.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden tamburun elle kolayca dönüp dönmediğini kontrol etmesini isteyin.
+Müşteriye cihazı fişten çekip 10 dakika beklemesini ve tekrar denemesini söyleyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Arka paneli sökerek motora (parça kodu: M-VP-07) erişin.
+Motor kayışının yerinde ve gergin olduğundan emin olun. Gerekirse yenisiyle değiştirin (parça kodu: MK-VP-08).
+Multimetre ile motor sargılarını (fırçalı motorlarda stator, invertör motorlarda fazlar arası) kontrol edin. Direnç değerlerini teknik dokümandan doğrulayın.
+Fırçalı motorlarda fırça boylarını kontrol edin. Belirli bir seviyenin altına düşmüşse fırçaları değiştirin.
+Tako jeneratörün (rpm sensörü) direncini kontrol edin ve kablo bağlantısının sağlam olduğundan emin olun.
+Motor kablolama hattını kontrol edin. Main PCB'den motora giden tüm bağlantıları doğrulayın.
+Parça arızası tespit edilirse, arıklı parçayı değiştirin.
+Motor ve kablolamada sorun yoksa, arıza Main PCB'deki motor sürücü devresinde olabilir. Bu durumda L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E06: Dengesiz Yük Hatası
+Tanım: Sıkma işlemi sırasında tambur içindeki çamaşırların dengesiz dağılması sonucu cihazın aşırı titreşim yapması.
+Olası Nedenler:
+Yıkama sepeti içindeki çamaşırlar birikmiş.
+Cihazın ayakları düzgün ayarlanmamış.
+Amortisörler (süspansiyonlar) arızalı veya zayıflamış.
+Tambur yatağı (kazan bilyası) arızalı.
+Hız sensörü veya kontrol kartı yanlış algılama yapıyor.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriye çamaşırları tambur içine eşit şekilde dağıtmasını ve sıkma programını tekrar denemesini söyleyin.
+Cihazın altındaki ayarlanabilir ayakların düzgünce zemine temas ettiğini ve cihazın sallanmadığını kontrol etmesini isteyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Cihazın ayaklarının zeminde dengede durduğunu su terazisi ile kontrol edin. Gerekirse ayakları ayarlayın.
+Arka paneli sökerek amortisörleri (parça kodu: A-VP-09) kontrol edin. Gözle görülür bir sızıntı veya aşınma var mı? Elinizle tamburu yukarı-aşağı hareket ettirerek direncini kontrol edin. Direnci zayıf olan amortisörleri yenisiyle değiştirin.
+Tambur yatağını kontrol edin. Tamburu elle döndürün. Anormal bir ses (gıcırtı, sürtme) duyuluyorsa veya zor dönüyorsa, tambur yatağı arızalıdır ve değiştirilmesi gerekir. (Parça kodu: TB-VP-10).
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E07: Taşıma Emniyetleri Hatası
+Tanım: Cihazın arkasındaki taşıma cıvatalarının sökülmediği durumlarda ortaya çıkan hata.
+Olası Nedenler:
+Cihazın montajı sırasında taşıma cıvataları sökülmemiş.
+Cihazın taşınması için tekrar takılmış ve unutulmuş.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriye cihazın arkasında bulunan 4 adet taşıma cıvatalarının sökülüp sökülmediğini kontrol etmesini söyleyin.
+Eğer cıvatalar yerindeyse, onları sökmelerini ve kutu içindeki plastik tapaları yerlerine takmalarını isteyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazı gözle kontrol edin. Taşıma cıvataları yerindeyse sökün ve plastik tapaları takın.
+Bu hata genellikle montaj hatası olduğu için, cıvataların sökülmesi sorunu çözmelidir. Eğer sorun devam ederse, L3 merkez teknik uzmanı ile iletişime geçin.
+E08: Elektronik Kart Haberleşme Hatası
+Tanım: Ana kontrol kartı (Main PCB) ile ekran kartı (Display PCB) veya diğer modüller arasındaki iletişimde sorun olması.
+Olası Nedenler:
+Kablolama bağlantılarında kopukluk veya kısa devre.
+Ana kontrol kartı (Main PCB) arızalı.
+Ekran kartı (Display PCB) arızalı.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden cihazı fişten çekip 10 dakika beklemesini ve tekrar denemesini isteyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Ön paneli sökerek Display PCB'ye ve Main PCB'ye erişin.
+İki kart arasındaki kablolama hattını kontrol edin. Bağlantıların sağlam ve oksitlenme olmadığını doğrulayın.
+Kablolama hattı sağlam ise, kartların soketlerini temizleyin ve tekrar takın.
+Sorun devam ederse, Main PCB'yi yeni bir kartla değiştirin.
+Yeni Main PCB takıldıktan sonra hata devam ederse, Display PCB'yi değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+E09: NTC Sensör Hatası
+Tanım: Sıcaklık sensörü (Termistör) devresinde açık devre veya kısa devre tespit edilmesi.
+Olası Nedenler:
+NTC sensörü arızalı.
+NTC sensörünün kablo bağlantısında kopukluk veya kısa devre.
+NTC sensörünün soketi oksitlenmiş veya gevşek.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden cihazı fişten çekip bir süre beklemesini ve tekrar denemesini isteyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Arka veya alt paneli sökerek NTC sensörüne (parça kodu: T-VP-06) erişin.
+Multimetre ile sensör direncini ölçün. Oda sıcaklığında (20-25°C) yaklaşık 20 kOhm değerinde olmalıdır. Farklı bir değer okunuyorsa veya direnç sonsuz/sıfır ise sensör arızalıdır.
+Sensörden Main PCB'ye giden kablo hattını kontrol edin. Bağlantıların sağlam olduğundan emin olun.
+Eğer sensör arızalıysa, NTC sensörünü değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E10: Basınç Sensörü Hatası
+Tanım: Su seviye sensöründen (basınç sensörü) gelen sinyallerin hatalı olması veya hiç sinyal gelmemesi.
+Olası Nedenler:
+Basınç sensörü (Pressure Switch) arızalı.
+Hava tüpü (kazan ile sensör arası) tıkanmış, delinmiş veya bükülmüş.
+Kablolama bağlantılarında kopukluk mevcut.
+Elektronik kontrol kartından (Main PCB) gelen sinyalde sorun var.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden cihazı fişten çekip bir süre beklemesini ve tekrar denemesini isteyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Üst paneli sökerek basınç sensörüne (parça kodu: SS-VP-03) erişin.
+Sensörün hava tüpünü kontrol edin. Tüpte tıkanma, yırtık veya bükülme olup olmadığını doğrulayın. Gerekirse tüpü temizleyin veya değiştirin.
+Basınç sensörünün kablo bağlantılarını kontrol edin.
+Sensörün kendisini test edin. Analog sensörler için multimetre ile voltaj okuması alın (su seviyesine göre değişir). Dijital sensörler için sinyal okuması yapın. Bu konuda detaylı bilgi için servis dokümantasyonuna başvurun.
+Eğer sensör arızalıysa, basınç sensörünü değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E11: Yazılım Hatası
+Tanım: Kontrol kartı yazılımında bir hata oluşması.
+Olası Nedenler:
+Yazılımın bozulması.
+Voltaj dalgalanması.
+Yazılım güncellemesinin başarısız olması.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden cihazı fişten çekip 10 dakika beklemesini ve tekrar denemesini isteyin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Cihazı programlama moduna alın ve en güncel yazılımı yükleyin. (Güncel yazılım dosyası için Meridian Teknik Servis IT birimine başvurun.)
+Yazılım yüklemesi sırasında cihazın fişini çekmeyin.
+Yazılım yüklemesi başarılı olursa, cihazı test edin.
+Hata devam ederse veya yazılım yüklemesi başarısız olursa, Main PCB'yi değiştirin.
+Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulayın.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E12: Tambur Hareketi Hatası
+Tanım: Cihazın yıkama veya sıkma sırasında tambur hareketini doğru şekilde algılayamaması veya hareketin kısıtlanması.
+Olası Nedenler:
+Motorun kendisinde fiziksel bir engel.
+Motorun elektronik kontrol ünitesinde (invertör) sorun.
+Tambur yatakları arızalı.
+Tambur içinde yabancı bir cisim var.
+Kablolama bağlantılarında sorun.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriye tamburu elle çevirmesini ve bir engelle karşılaşıp karşılaşmadığını kontrol etmesini söyleyin.
+Eğer tambur zor dönüyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Arka paneli sökerek motor kayışını yerinden çıkarın.
+Tamburu elle çevirerek sesli veya fiziksel bir engel olup olmadığını kontrol edin.
+Tambur yatağını kontrol edin. Anormal bir ses (gıcırtı, sürtme) duyuluyorsa, tambur yatağını değiştirin. (Parça kodu: TB-VP-10).
+Motoru test edin. Kayışsız bir şekilde motorun düzgün dönüp dönmediğini kontrol edin.
+Motorun kablo bağlantılarını ve motor sürücü kartını (Main PCB üzerindeki) kontrol edin.
+Parça arızası tespit edilirse, arıklı parçayı değiştirin.
+Hata devam ederse, L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+E13: Besleme Voltajı Hatası
+Tanım: Cihazın şebeke besleme voltajının belirlenen sınırlar dışında olması.
+Olası Nedenler:
+Düşük veya yüksek voltaj.
+Elektrik şebekesinde dalgalanma.
+Cihazın güç girişinde veya filtre devresinde arıza.
+Çözüm Adımları:
+L1 Çağrı Merkezi Adımları:
+Müşteriden evdeki diğer cihazların çalışıp çalışmadığını ve elektrik beslemesinin normal olup olmadığını kontrol etmesini isteyin.
+Cihazın fişini çekip başka bir prize takarak denemesini tavsiye edin.
+Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturun.
+L2 Saha Teknisyeni Adımları:
+Cihazın fişini çekin.
+Prizden gelen voltajı multimetre ile ölçün. Voltajın 220-240V AC aralığında olup olmadığını doğrulayın.
+Cihazın güç giriş kablosunu ve ana filtre kartını kontrol edin.
+Güç kablosunda veya filtre kartında arıza varsa, parçaları değiştirin.
+Hata devam ederse, bu durum Main PCB üzerindeki güç devresi arızasını gösterebilir. L3 merkez teknik uzmanı ile iletişime geçerek durumu raporlayın.
+Ek Notlar ve Uyarılar
+DİKKAT: Herhangi bir elektrikli bileşene müdahale etmeden önce cihazın enerjisini tamamen kestiğinizden emin olun.
+NOT: VortexPro serisi modellerde (VP7xx, VP8xx, VP9xx) farklı donanım konfigürasyonları bulunabilir. Parça kodları kontrol edilirken mutlaka cihazın seri numarasına göre doğru parça kataloğu kullanılmalıdır.
+DİKKAT: Belge dışında kalan veya çözümü bulunamayan arızalarda, müşteriyle herhangi bir parça değişimi veya onarım vaadinde bulunulmadan doğrudan L3 merkez teknik uzmanı ile iletişime geçilmelidir.
+İLETİŞİM: Tüm arızalar ve gerçekleştirilen işlemler, Meridian Teknik Servis CRM sistemine eksiksiz olarak kaydedilmelidir.

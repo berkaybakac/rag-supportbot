@@ -1,102 +1,63 @@
+Belge No: MT-VP-SA-004
+Tarih: 08.08.2025
+Kapsam: VortexPro Serisi (VP7xx, VP8xx, VP9xx) Çamaşır Makineleri Servis ve Onarım Adımları
 
-TEKNİK SERVİS HİZMETİ ADIMLARI
+1. Giriş ve Amaç
+Bu belge, Meridian Teknik Servis'in yetkili L2 Saha Teknisyenleri için VortexPro Serisi çamaşır makinelerinde karşılaşılan arızaların tespiti, onarımı ve operasyonel prosedürlerinin detaylı bir kılavuzudur. Amacımız, tüm servis süreçlerini standartlaştırarak hata payını minimuma indirmek, onarım sürelerini optimize etmek, müşteri memnuniyetini en üst seviyede tutmak ve her bir servis işleminin şeffaf ve doğru bir şekilde belgelenmesini sağlamaktır. Bu doküman, temel teknik bilgilerin yanı sıra, müşteri iletişimi, güvenlik önlemleri ve raporlama süreçlerini de kapsar. Tüm teknisyenlerimizden bu adımları eksiksiz ve titizlikle uygulamaları beklenmektedir. Bu kılavuz, hem yeni teknisyenlerin oryantasyonunda hem de deneyimli personelin sürekli gelişiminde temel bir referans kaynağı olarak kullanılacaktır.
 
-Bu belge, bir teknik servis çağrısının alınmasından tamamlanmasına kadar geçen tüm süreci ayrıntılı şekilde açıklamayı amaçlamaktadır. Amaç, müşteriye şeffaf bir hizmet akışı sunmak ve servis personelinin görev tanımlarını netleştirmektir.
+2. Servis Çağrısı Öncesi Hazırlık Prosedürleri
+Bir servis randevusuna başlamadan önce atılacak adımlar, operasyonel verimlilik ve müşteri algısı açısından hayati öneme sahiptir.
+Servis Kaydı Analizi: Günlük randevu listesi CRM sistemi üzerinden kontrol edilir. Her servis kaydında yer alan müşteri adı, adresi, telefon numarası, cihaz modeli (VP7xx, VP8xx, VP9xx), seri numarası ve müşterinin beyan ettiği arıza tanımı dikkatlice incelenmelidir. Müşteri beyanı, arıza teşhisi için önemli bir ilk adımdır.
+Geçmiş Kayıtların İncelenmesi: İlgili cihazın geçmiş servis kayıtları varsa, önceki arızaların niteliği, yapılan onarımlar, değiştirilen parçalar (parça kodları dahil) ve müşteri şikayetlerinin devamlılığı incelenir. Bu, kronik sorunları tespit etmeye veya önceki müdahalelerin arıza ile ilişkisini anlamaya yardımcı olur.
+Alet ve Yedek Parça Hazırlığı: Arıza tanımına göre ihtiyaç duyulabilecek alet ve ekipman listesi çıkarılır.
+Temel Ekipman: Multimetre, izoleli tornavida seti, farklı boyutta anahtarlar, pense, yankeski, kargaburun, kablo kesme ve soyma aleti, el feneri, su terazisi.
+Özel Ekipman: VortexPro serisi için özel olarak tasarlanmış arıza teşhis ve yazılım yükleme cihazı.
+Olası Yedek Parçalar: En sık karşılaşılan arızalar için yedek parça stoğu hazır bulundurulur. Örneğin:
+KL-VP-01 Kapak Kilidi
+SV-VP-02 Su Giriş Valfi
+TP-VP-04 Tahliye Pompası
+R-VP-05 Rezistans
+T-VP-06 NTC Sensörü
+SS-VP-03 Basınç Sensörü
+M-VP-07 Motor Kayışı veya fırçaları
+A-VP-09 Amortisörler
+Müşteri İletişimi ve Randevu Teyidi: Randevu saatinden makul bir süre önce (örneğin 30-45 dakika) müşteri aranarak yolda olunduğu ve yaklaşık varış süresi bilgisi verilir. Bu, müşterinin hazırlıklı olmasını sağlar ve profesyonel bir imaj çizer.
+3. Müşteri Adresinde Uygulanacak Standart Servis Adımları
+Servis adresine varıldığında, profesyonellik ve güvenlik en öncelikli konulardır.
 
-BÖLÜM 1 – HİZMET TALEBİNİN OLUŞMASI
+3.1. Müşteri İletişimi ve Güvenlik Önlemleri
+Kendini Tanıtma ve Kimlik Doğrulama: Kapıda Meridian Teknik Servis logolu üniforma ile bulunulmalı ve kimlik kartı gösterilerek kendini tanıtılmalıdır.
+Cihaz Güvenliği: Cihazın fişinin prizden çekildiğinden ve su giriş musluğunun kapalı olduğundan emin olunur. Müşteriye, onarım süresince bu durumun korunması gerektiği nazikçe hatırlatılır.
+Çevresel ve Fiziksel Kontrol: Cihazın bulunduğu yerin temiz ve güvenli olduğu kontrol edilir. Makinenin etrafındaki alan, rahat çalışmaya imkan verecek şekilde boşaltılmalıdır. Cihazın dış kasasında darbe, çatlak, yanık veya su sızıntısı gibi garanti kapsamı dışındaki durumlar için fiziksel bir inceleme yapılır. Bu tespitler servis formuna mutlaka not edilir.
+3.2. Belge ve Garanti Durumu Kontrolü
+Garanti Belgesi ve Fatura Teyidi: Müşteriden garanti belgesi ve fatura gibi satın alma belgeleri talep edilir. Bu belgeler üzerinde yer alan satın alma tarihi, garanti süresini doğrulamak için kullanılır.
+Seri Numarası Kontrolü: Cihazın üzerinde bulunan seri numarası etiketi ile garanti belgesindeki seri numarası karşılaştırılır. Etiketin yırtık, hasarlı veya değiştirilmiş olup olmadığı kontrol edilir. Herhangi bir uyumsuzluk durumunda, "MT-VP-GS-002 Garanti Şartları" belgesindeki prosedürler uygulanır.
+4. Arıza Tespiti ve Kök Neden Analizi Prosedürleri
+Doğru bir onarım için arızanın kaynağını kesin olarak tespit etmek esastır. Bu süreçte L2 teknisyeni analitik düşünme yeteneğini kullanmalıdır.
+Müşteri Beyanını Onaylama: Müşterinin şikayetini dinleyip, cihazı kısa bir programda çalıştırarak arızanın tekrarını sağlamaya çalışılır. Ekranda beliren arıza kodunu veya semptomları not edilir.
+Arıza Kodu Referansı ve Detaylı Teşhis: Elde edilen arıza koduna göre "MT-VP-AK-001 Arıza Kodları" belgesine başvurulur. Bu belge, potansiyel nedenleri ve çözüm yollarını sunar.
+Elektriksel ve Mekanik Ölçümler:
+Enerji Kesimi: Cihazın fişinin çekildiğinden ve enerjisinin tamamen kesildiğinden emin olunur.
+Parça Bazlı Ölçümler:
+Kapı Kilidi (E01): Ön panel sökülür, kapı kilidine erişilir. Multimetre ile kapı kilit anahtarının (parça kodu: KL-VP-01) kontakları ohm modunda kontrol edilir. Normalde kapalıyken 0 Ohm, açıkken sonsuz direnç göstermelidir.
+Su Sistemi (E02, E03, E10): Cihazın alt paneli sökülerek su valfi, pompa ve basınç sensörü kontrol edilir. Su valfinin (parça kodu: SV-VP-02) bobin direnci (2-4 kOhm), pompanın (parça kodu: TP-VP-04) bobin direnci (15-25 Ohm) ölçülür. Basınç sensörünün (parça kodu: SS-VP-03) hortumunda delik, bükülme veya tıkanıklık kontrol edilir.
+Isıtma ve Sıcaklık (E04, E09): Arka panel sökülerek rezistans (parça kodu: R-VP-05) ve NTC sensörüne (parça kodu: T-VP-06) ulaşılır. Rezistansın direnci (25-35 Ohm) ve NTC sensörünün direnci (oda sıcaklığında 20 kOhm) ölçülür.
+Motor ve Hareket (E05, E06, E12): Motor kayışı, amortisörler ve tambur yatakları kontrol edilir. Motor sargı dirençleri ve tako jeneratör direnci ölçülür. Tambur elle çevrilerek anormal ses veya sürtünme olup olmadığı dinlenir.
+Kablolama Kontrolü: İlgili parçadan ana kontrol kartına (Main PCB) giden kablo hattında multimetre ile süreklilik (continuity) testi yapılır. Herhangi bir kopukluk veya kısa devre tespit edilirse kablo demeti (harness) kontrol edilir veya değiştirilir.
+Yazılımsal Kontrol (E08, E11): Cihazın ekranı ve ana kontrol kartı arasındaki iletişim kontrol edilir. Gerekirse Meridian Teknik Servis’in özel yazılım aracı kullanılarak kartların yazılım versiyonları kontrol edilir ve güncel yazılım yüklemesi yapılır.
+5. Onarım, Yedek Parça Değişimi ve Son Kontrol
+Arıza tespiti tamamlandıktan sonra, onarım süreci başlatılır ve müşteri onayı alınır.
 
-1.1 Çağrı Alma / Başvuru Süreci
-- Müşteri, teknik servis ihtiyacını aşağıdaki kanallardan biriyle bildirir:
-    - Web üzerinden form doldurarak
-    - Çağrı merkezi aracılığıyla
-    - Mobil uygulama üzerinden “Yeni Servis Talebi” oluşturularak
-- Sistem, başvuruyu alır ve CRM sistemine otomatik kayıt açar.
-- Talep kodu oluşturularak müşteriye SMS ve e-posta yoluyla iletilir.
-
-1.2 Ön Değerlendirme ve Randevu Planlaması
-- Müşteri temsilcisi, gelen talebi inceler.
-- Sorun tipi ve cihaz türüne göre teknik ekip atanır.
-- Müsaitlik durumuna göre müşteriyle birlikte uygun gün ve saat belirlenir.
-- Randevu bilgisi sistemde kayıt altına alınır ve tekrar SMS ile doğrulanır.
-
-BÖLÜM 2 – SERVİS ÖNCESİ HAZIRLIK
-
-2.1 Parça ve Ekipman Kontrolü
-- Servis planlaması sonrası teknik personel, servis günü öncesi ihtiyacı olan parçaları kontrol eder.
-- Gerekli parçalar stoktan ayrılır veya depo transferi yapılır.
-- Özel ekipman gerekiyorsa lojistik birimi bilgilendirilir.
-
-2.2 Lokasyon ve Erişim Bilgisi
-- Sistem, servis adresini harita ile entegre şekilde gösterir.
-- Adres bilgisi eksikse müşteriyle iletişime geçilir.
-
-BÖLÜM 3 – SERVİS ZİYARETİ
-
-3.1 Giriş ve Kimlik Doğrulama
-- Teknik personel, belirtilen saatte adrese ulaşır.
-- Kimliğini gösterir, "Servis Giriş Formu" dijital olarak imzalatılır.
-- Servis başlamadan önce müşteriye kısa bilgilendirme yapılır.
-
-3.2 Arıza Tespiti
-- Cihaz gözle kontrol edilir.
-- Gerekirse test cihazlarıyla arıza teşhisi yapılır.
-- Sorunun tipi, tekrarlanabilirliği ve geçmiş arızalar incelenir.
-- Tespit sonrası “Servis Raporu” ön taslağı hazırlanır.
-
-3.3 Onarım ve Müdahale
-- Müdahale öncesi müşteri onayı alınır.
-- Gerekli parça ve işlemler uygulanır.
-- Değiştirilen parçalar müşteriye gösterilir ve gerekirse teslim edilir.
-- Tüm işlemler sistemde “adım adım” kaydedilir.
-
-3.4 Servis Sonu Kontrol
-- Cihaz çalışır duruma getirilir.
-- Fonksiyon testi yapılır (ısıtma, soğutma, ses, sızıntı kontrolü vb.)
-- Gerekli durumlarda fotoğraf ile belgeleme yapılır.
-
-BÖLÜM 4 – SERVİS TAMAMLAMA
-
-4.1 Raporlama
-- Tüm işlem detayları içeren dijital “Servis Sonuç Formu” hazırlanır.
-- Müşteri, tablet üzerinden formu onaylar.
-- Müşteri memnuniyet anketi gönderilir.
-
-4.2 Faturalandırma
-- Garanti dışı müdahalelerde fatura kesilir.
-- Kredi kartı, havale ya da mobil ödeme ile tahsilat yapılır.
-- Fatura dijital olarak müşteriye iletilir.
-
-4.3 Servis Kapanışı
-- Sistem üzerinden ilgili talep kapatılır.
-- CRM sistemi üzerinden süreç otomatik arşivlenir.
-- Teknik personel yeni görev atamasına geçer.
-
-BÖLÜM 5 – ÖZEL DURUMLAR VE İSTİSNALAR
-
-5.1 Yerinde Müdahale Edilemeyen Durumlar
-- Cihaz atölyeye alınmalıdır: Aşırı hasar, özel teşhis ihtiyaçları vb.
-- Atölyeye taşınmadan önce müşteri onayı alınır.
-- Taşıma fişi düzenlenir ve cihaz barkodlanır.
-
-5.2 Ertelenen Müdahaleler
-- Parça tedariki mümkün değilse işlem ertelenir.
-- Yeni randevu planlaması yapılır.
-
-5.3 İkinci Ziyaret Gerektiren Durumlar
-- Müdahale sonrası test süresi uzun olan cihazlar için
-- Ek parça ihtiyacı oluşmuşsa
-- İlk ziyaret sırasında fiziksel müdahale mümkün olmamışsa
-
-BÖLÜM 6 – GÜVENLİK VE KALİTE KONTROL
-
-6.1 Personel Güvenliği
-- Elektrik bağlantıları kontrol edilmeden müdahale yapılmaz.
-- Koruyucu ekipmanlar (eldiven, gözlük, ayakkabı) zorunludur.
-
-6.2 Müşteri Alanı Güvenliği
-- İşlem alanı temiz bırakılmalıdır.
-- Duvar, mobilya ve zemin koruma kurallarına uyulmalıdır.
-
-6.3 Kalite Denetimi
-- Servis sonrası rastgele denetim yapılabilir.
-- Teknik işlem kayıtları kalite kontrol departmanı tarafından analiz edilir.
+5.1. Onarım Prosedürü
+Garanti Dışı Durum Bildirimi: Eğer arıza, "MT-VP-GS-002 Garanti Şartları" belgesinde belirtilen garanti dışı durumlardan birine giriyorsa, bu durum müşteriye açıkça, kanıtlarıyla birlikte izah edilir. Onarım için gerekli olan parça ve işçilik maliyeti, KDV dahil olarak müşteriye bildirilir ve yazılı veya sözlü onayı alınmadan işleme başlanmaz.
+Yedek Parça Değişimi: Arızalı parça, orijinal ve doğru parça koduyla eşleşen yedek parça ile değiştirilir. Parçanın montajı sırasında bağlantıların sıkı ve doğru yapıldığından emin olunur.
+Yazılım Güncellemesi (Gerektiğinde): Yazılım hatası nedeniyle parça değişimine gerek kalmayan durumlarda, cihazın yazılımı güncellenir.
+Atölye Onarımı Süreci: Yerinde onarımın mümkün olmadığı veya teknik ekipman gerektiren durumlarda, müşteriye cihazın atölyeye alınması gerektiği bilgisi verilir. Bir "Atölye Onarım Formu" doldurulur. Formda, cihazın durumu, olası onarım süresi ve müşteri onayı yer alır. Cihaz atölyeye götürülürken özenle taşınmalıdır.
+5.2. Son Kontrol ve Müşteri Teyidi
+İşlevsellik Testi: Onarım tamamlandıktan sonra cihazın fişi takılır ve su musluğu açılır. Hızlı bir yıkama programı seçilerek cihazın tüm fonksiyonlarının (su alma, ısıtma, tambur hareketi, su boşaltma, sıkma) düzgün çalıştığı kontrol edilir.
+Servis Formu Belgelendirmesi: Servis formuna yapılan tüm işlemler, değiştirilen parça veya parçaların kodları, seri numaraları ve onarımın başarılı olduğuna dair detaylı notlar yazılır. Garanti dışı bir işlem yapıldıysa, ücret bilgisi ve müşteri onayı belirtilir.
+Müşteri Bilgilendirmesi: Müşteriye arızanın kök nedeni, yapılan onarımın detayları ve gelecekteki olası sorunları önlemek için yapılması gerekenler (örneğin filtre temizliğinin düzenli yapılması, makineye uygun deterjan kullanımı) hakkında kapsamlı bir bilgilendirme yapılır.
+İmza ve Kapama: Müşteriden, servis işleminin başarıyla tamamlandığını ve bilgilendirildiğini onaylayan bir imza alınır.
+6. Saha Dışı Raporlama ve Geri Bildirim
+CRM Sistemi Güncelleme: Her servis işlemi tamamlandıktan sonra, doldurulan servis formu ve alınan müşteri imzası, CRM sistemine yüklenir. Bu, tüm servis verilerinin merkezi bir platformda toplanmasını sağlar.
+L3 Merkez Uzmanına Geri Bildirim: L2 Saha Teknisyenleri, çözemedikleri veya beklenmedik bir arızayla karşılaştıkları durumlarda L3 Merkez Teknik Uzmanı ile iletişime geçerek destek almalıdır. Bu tür durumlar, ürün iyileştirme ve teknik dokümantasyonun güncellenmesi için önemli bir geri bildirim kaynağıdır.

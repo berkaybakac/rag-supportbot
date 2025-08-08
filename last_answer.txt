@@ -1,0 +1,9 @@
+Sorunuza göre, VortexPro çamaşır makinemizin E01 hatası veriyor, kapağını kilitlemiyor. Belge parçalarımıza bakıldığında, benzer bir durum Vaka 2'de görülüyor. Müşterinin klimada çalışmıyor, ışık yanıyor ama üfleme yok. Kodu F03, fan motoruna enerji gitmiyor, kartta yanık.
+
+Bölüm 5'deki bilgilerin ışığında, arıza kodu girildikten sonra otomatik çözüm önerisi çıkmalı. Çağrı merkezi bu kodlara göre müşteriye ön bilgi verebilmeli. Teknisyen mobil uygulamada bu kodları filtreleyerek ilgili yedek parçaları görebilmeli.
+
+Bölüm 6'daki güncelleme politikasına göre, arıza kodları her çeyrek dönemde bir güncellenir. Güncellemeler teknik yöneticiler tarafından yapılır.
+
+ERR10 kodu, kapı kilidi 3 denemede de kapanmadı. Nedenleri kilit mekanizması arızalı, anakarttan sinyal gelmiyor, kapı sensörü bozuk. Çözüm, kapı kilidi değiştirilmeli, bağlantı kabloları kontrol edilmeli.
+
+Böylece, sizin çamaşır makinemizin E01 hatası, kapı kilidi değiştirilmesi ve bağlantı kabloları kontrol edilmesi gerektiği sonucunu çıkardık.

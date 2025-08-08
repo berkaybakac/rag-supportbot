@@ -1,105 +1,70 @@
+Belge No: MT-VP-GS-002
+Tarih: 08.08.2025
+Kapsam: VortexPro Serisi (VP7xx, VP8xx, VP9xx) Çamaşır Makineleri Garanti Şartları ve Prosedürleri
 
-GARANTİ ŞARTLARI VE UYGULAMA POLİTİKALARI
+1. Giriş
+Bu belge, Meridian Teknik Servis bünyesinde görev yapan tüm personel için (L1 Çağrı Merkezi, L2 Saha Teknisyeni ve L3 Merkez Teknik Uzman), VortexPro Serisi çamaşır makinelerinin garanti kapsamını, garanti şartlarını, istisnaları ve ilgili operasyonel prosedürleri detaylandırmak amacıyla hazırlanmıştır. Bu kılavuz, müşteri memnuniyetini en üst seviyede tutmak ve garanti süreçlerinin Türkiye genelinde tutarlı, adil ve yasal düzenlemelere uygun bir şekilde yürütülmesini sağlamak için zorunludur. Tüm personel, bu belgede belirtilen kuralları ve adımları eksiksiz bir şekilde uygulamakla yükümlüdür. Garanti dışı bir işlem yapılmadan önce müşterinin bilgilendirilmesi ve onayı alınması esastır. Bu belge, aynı zamanda T.C. Sanayi ve Ticaret Bakanlığı tarafından yayımlanan Garanti Belgesi Yönetmeliği'ne uygunluk esas alınarak hazırlanmıştır.
 
-Bu belge, TeknikServisKolay A.Ş. tarafından sunulan tüm cihaz bakım ve onarım hizmetleri için geçerli olan garanti kapsamlarını ve uygulama prosedürlerini içerir. Tüm müşteriler, cihazlarını onarıma göndermeden önce bu garanti şartlarını dikkatle okumalıdır.
+2. Garanti Kapsamının Tanımı ve Genel Şartlar
+Meridian Teknik Servis, VortexPro Serisi çamaşır makineleri için ürünün satın alma veya kurulum tarihinden itibaren 3 yıl süreyle garanti hizmeti sunmaktadır. Bu garanti, ürünün üretiminden kaynaklanan malzeme, işçilik veya montaj hatalarına karşı geçerlidir. Cihazın normal kullanım koşulları altında ve kullanım kılavuzunda belirtilen talimatlara uygun şekilde kullanılması durumunda meydana gelen arızalar, yedek parça ve işçilik ücreti talep edilmeksizin giderilir.
 
-BÖLÜM 1 – GARANTİ SÜRESİ
+Garanti kapsamındaki hizmetler şunları içerir:
+Arızalı yedek parçanın, orijinal Meridian Teknik Servis yedek parçası ile ücretsiz olarak değiştirilmesi.
+Onarım için gerekli işçiliğin ve teknisyen ziyaretinin ücret talep edilmeksizin sağlanması.
+Yazılımsal hataların giderilmesi ve güncel yazılımın yüklenmesi.
+Garanti süresi içinde tamir süresinin maksimum 20 iş gününü aşması halinde, müşteriye talep etmesi durumunda muadil bir cihazın sağlanması veya iade/değişim süreçlerinin başlatılması.
+Garanti Geçerliliği için Ana Şartlar:
+Kurulum ve Aktivasyon: Cihazın ilk kurulumu mutlaka yetkili Meridian Teknik Servis personeli tarafından yapılmış ve bu durum servis formunda onaylanmış olmalıdır. Yetkisiz kurulum, garanti koşullarını otomatik olarak geçersiz kılar.
+Kullanım ve Bakım: Cihazın kullanımı, VortexPro çamaşır makinesi ile birlikte verilen Türkçe kullanım kılavuzunda belirtilen talimatlara uygun olmalıdır. Yanlış program seçimi, tavsiye edilenden farklı deterjan kullanımı gibi kullanıcı hataları garanti dışı durumlar yaratabilir.
+Belge İbrazı: Garanti hizmeti talep edildiğinde, müşterinin garanti belgesi ve fatura veya sevk irsaliyesi gibi geçerli bir satın alma kanıtını ibraz etmesi zorunludur. Bu belgeler, garanti süresini doğrulamak için kullanılır. Belgelerin ibraz edilememesi veya sahte olduğunun tespiti durumunda servis ücretli hale gelir.
+Seri Numarası ve Etiket: Cihaz üzerinde yer alan fabrika çıkışlı seri numarası ve diğer garanti etiketleri, hasarsız, okunaklı ve değiştirilmemiş olmalıdır. Bu etiketlerin tahrip edilmesi veya değiştirilmesi, garantiyi geçersiz kılar.
+Servis Müdahalesi: Cihaza, Meridian Teknik Servis dışında hiçbir kişi veya kurum tarafından müdahale edilmemiş olmalıdır. Yetkisiz müdahaleler (parça değişimi, yazılım yüklemesi, cihazın açılması vb.), tüm garanti haklarını sona erdirir.
+NOT: Herhangi bir servis işlemi başlatılmadan önce, L1 Çağrı Merkezi ve L2 Saha Teknisyeni tarafından bu şartların eksiksiz bir şekilde kontrol edilmesi esastır. Müşteriye garanti dışı bir işlemle ilgili bilgi verilmesi ve onay alınması, operasyonel sürecin en kritik adımlarından biridir.
 
-1.1 Başlangıç Tarihi
-- Garanti süresi, cihazın satın alındığı tarihten itibaren başlar.
-- Servis sonrası onarılan parçalar için ise garanti süresi, onarım tarihinden itibaren geçerlidir.
+3. Garanti Kapsamı Dışında Kalan Durumlar
+Aşağıda listelenen durumlar, garanti süresi içinde olsa dahi, garanti kapsamı dışında değerlendirilir ve bu durumlarda yapılacak tüm onarım, parça ve işçilik işlemleri ücrete tabidir. Bu durumların tespiti halinde, L2 Saha Teknisyeni tarafından müşteriye detaylı bilgi verilmeli ve onarım teklifi sunulmalıdır.
+Kullanıcı Kaynaklı Fiziksel Hasarlar: Cihazın düşmesi, darbe alması, kapağının kırılması, plastik parçaların çatlaması, panelin çizilmesi gibi fiziksel hasarlar.
+Yanlış Kullanım Hataları:
+Kapasitenin üzerinde aşırı çamaşır yüklenmesi sonucu oluşan motor, tambur veya amortisör arızaları.
+Tambur içine düşürülen yabancı cisimler (bozuk para, anahtar, çakmak, fermuar vb.) nedeniyle pompa, tambur veya rezistansın zarar görmesi.
+Üretici tarafından tavsiye edilmeyen deterjan, yumuşatıcı veya temizlik kimyasallarının kullanılması.
+Cihazın, kılavuzda belirtilen çevresel koşulların (sıcaklık, nem vb.) dışında bir ortamda kullanılması.
+Elektriksel ve Çevresel Etkiler:
+Şebeke voltajının 220V-240V AC aralığı dışında kalması, ani voltaj dalgalanmaları veya yıldırım düşmesi sonucu oluşan elektronik kart (Main PCB, Display PCB) hasarları.
+Su ve elektrik tesisatından kaynaklanan sorunlar (su basıncının düşük/yüksek olması, tesisattaki kireç, paslanma, topraklama hattının olmaması).
+Yetkisiz Müdahaleler:
+Meridian Teknik Servis dışında kişi veya kurumlar tarafından cihazın tamir edilmesi, parça değiştirilmesi veya yazılımına müdahale edilmesi.
+Sarflar ve Normal Aşınma:
+Cihazın normal kullanımı sonucu aşınan veya ömrü dolan sarf malzemeleri (pompa filtresi, deterjan çekmecesi, tahliye hortumu, su giriş hortumu).
+Normal kullanım sonucu oluşan kozmetik kusurlar (boya atması, plastik parçalarda renk değişimi).
+Mülkiyet Değişikliği:
+Cihazın ikinci el olarak satın alınması ve garanti belgesinin devredilmemiş olması.
+Periyodik Bakım ve Temizlik:
+Cihazın iç temizliği (tambur temizliği, programlı bakım), filtre temizliği gibi rutin bakım işlemleri garanti kapsamında değildir.
+Kullanıcı tarafından yapılması gereken basit ayarlamalar (ayak ayarı, hortumların düzeltilmesi vb.) servis hizmeti kapsamına girmez ve ücretlidir.
+DİKKAT: Garanti dışı bir durum tespit edildiğinde, L2 Saha Teknisyeni bu durumu servis formuna detaylı bir şekilde kaydetmeli, müşterinin bilgilendirildiğini ve onarım teklifini sunduğunu belirtmelidir. Müşterinin onayı alınmadan ücretli işlem yapılmamalıdır.
 
-1.2 Süreler
-- Yeni cihazlarda üretici garantisi: 24 ay
-- Servis sonrası parça değişim garantisi: 6 ay
-- Yeniden imal edilmiş (refurbished) parçalar: 3 ay
+4. Servis Prosedürleri (Rol Bazlı)
+Bu bölümde, garanti süreçlerinin tüm personelimiz tarafından nasıl yönetileceği adım adım açıklanmıştır.
 
-1.3 Fatura ve Belgelendirme Zorunluluğu
-- Garanti talebi için orijinal fatura veya e-fatura ibrazı zorunludur.
-- Faturasız ürünler “garanti dışı” olarak işlem görür.
-
-BÖLÜM 2 – GARANTİ KAPSAMI
-
-2.1 Kapsama Dahil Hizmetler
-- Üretim hatalarından kaynaklanan arızaların ücretsiz onarımı
-- Değiştirilen parçaların garanti süresi boyunca tekrar arızalanması durumunda yeniden değişim
-- Garanti süresi içinde yapılan bakım işlemleri sonrası ortaya çıkan sorunlar
-
-2.2 Kapsam Dışı Durumlar
-Aşağıdaki durumlar garanti dışında kabul edilir:
-- Kullanıcı hatası kaynaklı arızalar (düşürme, sıvı teması, darbe)
-- Yetkisiz kişi veya firmalarca yapılan müdahaleler
-- Cihazın uygunsuz koşullarda kullanılması (yüksek nem, tozlu ortam, aşırı sıcaklık)
-- Seri numarası silinmiş veya tahrif edilmiş cihazlar
-- Enerji kesintisi, voltaj dengesizliği, yıldırım düşmesi gibi dışsal faktörler
-
-2.3 Özel Durumlar
-- Tüketici, cihazın farklı bir işlem nedeniyle açılmış olduğunu beyan ederse teknik servis kontrolünde bu durum raporlanır.
-- Cihazın önceki onarımları sistemde görünmüyorsa, firma önce servis geçmişi araştırması yapar.
-
-BÖLÜM 3 – GARANTİ KULLANIM PROSEDÜRÜ
-
-3.1 Başvuru Süreci
-- Müşteri, arıza bildirimini çağrı merkezi, web formu veya mobil uygulama üzerinden yapar.
-- Servis personeli arıza durumunu değerlendirir ve “garanti uygunluk kontrolü” yapar.
-
-3.2 Yerinde Müdahale – Atölye Süreci
-- Cihaz arızası küçükse yerinde müdahale yapılır, kayıt altına alınır.
-- Büyük arızalarda cihaz atölyeye alınır, etiketlenir, kayıt defterine işlenir.
-
-3.3 İnceleme Raporu
-- Teknik ekip cihazı inceler, fotoğraflar ve tüm arıza bulgularını dijital servis sistemine girer.
-- Müşteriye detaylı garanti değerlendirme raporu gönderilir.
-
-3.4 Onay ve İşlem
-- Eğer arıza garanti kapsamındaysa ücretsiz işlem yapılır.
-- Garanti dışı ise müşteri bilgilendirilir ve fiyat teklifi sunulur.
-
-BÖLÜM 4 – GARANTİ SÜRESİNİN UZATILMASI
-
-4.1 Ek Garanti Paketleri
-- Müşteri, satın alma sırasında veya garanti süresi bitmeden “uzatılmış garanti paketi” alabilir.
-- Paket türleri:
-    - Ekstra 1 Yıl (Gold)
-    - Ekstra 2 Yıl (Platinum)
-
-4.2 Uygulama Şartları
-- Uzatılmış garanti, sadece orijinal müşteriye tanımlıdır.
-- Ürün el değiştirse dahi uzatılmış garanti devredilmez.
-
-4.3 Kapsam
-- Uzatılmış garanti; sadece üretim hatalarını kapsar.
-- Kullanıcı kaynaklı hasarlar, bu pakete dahil değildir.
-
-BÖLÜM 5 – DEĞİŞİM VE İADE
-
-5.1 Değişim Şartları
-- Aynı arıza, 3 kere tekrar ederse cihaz değişimi yapılabilir.
-- Yedek cihaz verilmesi, sadece parça temin süresi 10 iş gününü geçerse uygulanır.
-
-5.2 İade Durumu
-- Cihaz onarılamaz durumdaysa veya üretici kaynaklı kronik hata varsa tam iade yapılır.
-- Müşteri, kutu, aksesuar ve belgeleri tam olarak teslim etmelidir.
-
-BÖLÜM 6 – MÜŞTERİ SORUMLULUĞU
-
-6.1 Cihaz Tesliminde Yapılması Gerekenler
-- Cihaz temiz ve açık şekilde teslim edilmelidir.
-- Kullanıcı, varsa şifre ve PIN bilgilerini teknik personele sağlamalıdır.
-
-6.2 Veri Güvenliği
-- Firmamız, cihazdaki verilerin güvenliğini garanti etmez.
-- Müşteri, verilerini yedeklemekle yükümlüdür.
-
-6.3 İletişim Bilgileri
-- Müşteri, telefon ve e-posta bilgilerinin güncel olduğundan emin olmalıdır.
-- Bilgilendirmeler sadece kayıtlı iletişim kanalları üzerinden yapılır.
-
-BÖLÜM 7 – HUKUKİ GEÇERLİLİK
-
-7.1 Yürürlük
-- Bu belge, 1 Ocak 2024 tarihinden itibaren yürürlüktedir.
-- Garanti politikaları, yasal düzenlemelere göre revize edilebilir.
-
-7.2 Yetkili Mercii
-- Taraflar arasında anlaşmazlık olması durumunda Mersin Tüketici Hakem Heyeti yetkilidir.
+4.1. L1 Çağrı Merkezi Personeli Adımları
+Çağrı Kaydı ve Ön Bilgi Alma: Müşteriden gelen çağrıda öncelikle müşteri adı, soyadı, adres ve cihazın seri numarası bilgileri alınır. Cihazın modeli (VP7xx, VP8xx, VP9xx) ve satın alma tarihi öğrenilir.
+Garanti Sorgulama: Alınan bilgilerle CRM sisteminde cihazın garanti durumu sorgulanır. Garanti süresinin bitip bitmediği ve cihazın daha önce yetkili servisimiz dışında bir müdahaleye maruz kalıp kalmadığı kontrol edilir.
+Ön Teşhis ve Müşteri Destek: Müşterinin şikayeti dikkatle dinlenir. "Arıza Kodları" dokümanı kullanılarak sorunun olası nedenleri ve basit çözüm önerileri (fiş çekme, resetleme, filtre temizliği vb.) müşteriye nazik bir dille iletilir. Bu adımlar, gereksiz servis ziyaretlerini önlemeyi amaçlar.
+Servis Kaydı Oluşturma: Eğer ön destek adımları sorunu çözmüyorsa ve cihaz garanti kapsamında ise, L2 Saha Teknisyeni yönlendirilmesi için detaylı bir servis kaydı oluşturulur. Servis kaydında, müşterinin şikayeti, denenen çözüm adımları ve cihazın garanti durumu açıkça belirtilmelidir.
+Randevu Planlama: Müşteriye en uygun tarih ve saat aralığı için bir randevu teklif edilir. Randevu bilgileri CRM sistemine kaydedilir ve müşteriye teyit edilir. Müşteriye randevu günü ve saati için hazırlıklı olması gerektiği (çamaşır makinesinin etrafının boşaltılması vb.) bilgisi verilir.
+4.2. L2 Saha Teknisyeni Adımları
+Randevu Öncesi Hazırlık: Servis adresine gitmeden önce, CRM sisteminden atanan servis kaydı incelenir. Müşteri bilgileri, cihaz modeli, arıza tanımı ve en önemlisi garanti durumu kontrol edilir. Gerekli yedek parça ve ekipman (multimetre, tornavida setleri vb.) hazırlanır.
+Adres Ziyareti ve Fiziksel Kontrol: Müşteri adresine varıldığında, öncelikle kendisiyle iletişim kurulur. Cihazın fiziksel durumunu gözle kontrol ederek garanti dışı durumlara neden olabilecek (dış darbe izleri, sıvı teması vb.) herhangi bir belirti olup olmadığına bakılır.
+Belge Doğrulama: Müşteriden garanti belgesi ve satın alma faturası talep edilir. Bu belgeler, cihazın üzerindeki seri numarası ile karşılaştırılarak garanti kapsamı teyit edilir. Gerekirse bu belgelerin bir kopyası çekilir veya fotoğrafı çekilerek servis kaydına eklenir.
+Arıza Tespiti ve Raporlama: "Arıza Kodları" ve "Servis Adımları" belgeleri kullanılarak arızanın kaynağı tespit edilir. Bu süreçte yapılan ölçümler ve tespitler servis formuna detaylı bir şekilde kaydedilir.
+Onarım ve Müşteri Onayı:
+Garanti Kapsamında Onarım: Eğer arıza, garanti kapsamında ise, gerekli parça değişimi yapılır ve onarım tamamlanır. Onarım sonrasında cihaz müşteriyle birlikte test edilerek fonksiyonlarının normal çalıştığı gösterilir. Servis formuna değiştirilen parça kodları (örneğin KL-VP-01) ve yapılan işlemler detaylı olarak yazılır. Müşteriden onarımın tamamlandığına dair imza alınır.
+Garanti Dışı Onarım: Eğer arıza, bu belgenin 3. maddesinde belirtilen garanti dışı durumlardan birine giriyorsa, bu durum müşteriye açık, anlaşılır ve nazik bir dille izah edilir. Arızanın nedeni (örneğin aşırı yüklemeden kaynaklanan motor arızası) ve garanti dışı kalma gerekçesi (kullanıcı hatası) belirtilir. Onarım için gerekli olan yedek parça, işçilik ve KDV dahil toplam maliyet müşteriye yazılı veya sözlü olarak sunulur. Müşterinin onayı alınmadan kesinlikle ücretli işleme başlanmaz. Müşteri onayı sonrasında onarım gerçekleştirilir ve servis formuna onarım maliyeti ve müşteri onayı detaylı bir şekilde kaydedilir. Eğer müşteri onarımı reddederse, bu durum da aynı şekilde servis formuna not edilir.
+4.3. L3 Merkez Teknik Uzmanı Adımları
+Destek ve Analiz: L2 Saha Teknisyenleri tarafından çözülemeyen veya "kök neden analizi" gerektiren karmaşık arızalarda devreye girer. Sahadan gelen servis formlarını, ölçüm verilerini ve raporları detaylı bir şekilde inceler.
+Yazılımsal Destek: Cihazın yazılımında bir sorun olduğu tespit edilirse, uzaktan bağlantı veya yerinde müdahale için teknisyene gerekli yazılım dosyalarını ve prosedürlerini sağlar.
+Parça ve Proses Onayı: Garanti kapsamı dışında kalma ihtimali olan veya şüpheli durumlarda (örneğin, voltaj dalgalanmasından şüphelenilen elektronik kart arızası), L3 uzmanı nihai kararı verir. Bu karar, L2 teknisyenine ve gerekli durumlarda müşteri hizmetleri birimine bildirilir.
+Teknik Dokümantasyon Geliştirme: Sahadan gelen geri bildirimler ve sık karşılaşılan arızalar doğrultusunda, garanti şartları, arıza kodları ve servis prosedürlerinin güncellenmesi ve iyileştirilmesi için çalışır.
+5. Garanti Dışında Kalan Parçaların Temini ve Garanti Koşulları
+Meridian Teknik Servis tarafından garanti dışı durumlarda değiştirilen tüm orijinal yedek parçalar, değişim tarihinden itibaren 6 ay süreyle parça garantisi altındadır. Bu garanti, sadece değiştirilen parçanın kendisinden kaynaklanan ve üretim hatalarına bağlı arızaları kapsar. Müşteri hatası, çevresel faktörler veya yetkisiz müdahale gibi nedenlerle parçanın tekrar arızalanması bu garanti kapsamı dışındadır.

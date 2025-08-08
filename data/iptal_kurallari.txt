@@ -1,65 +1,52 @@
+Belge No: MT-VP-İP-003
+Tarih: 08.08.2025
+Kapsam: VortexPro Serisi (VP7xx, VP8xx, VP9xx) Çamaşır Makineleri Servis Randevu İptal ve Yeniden Planlama Kuralları ve Prosedürleri
 
-İPTAL POLİTİKASI VE PROSEDÜRLERİ
+1. Giriş
+Bu belge, Meridian Teknik Servis bünyesinde görev yapan L1 çağrı merkezi, L2 saha teknisyeni ve L3 merkez teknik uzman personelinin, VortexPro Serisi çamaşır makineleri için planlanan servis randevularının iptal veya yeniden planlanması süreçlerini nasıl yöneteceğini detaylandırmaktadır. Bu prosedürlerin temel amacı, operasyonel verimliliği maksimize etmek, servis personelinin saha zamanını etkin kullanmasını sağlamak ve müşteri beklentilerini doğru bir şekilde yöneterek müşteri memnuniyetini korumaktır. Tüm personel, bu kurallara eksiksiz ve tutarlı bir şekilde uymakla yükümlüdür. Bu belge, aynı zamanda müşteri iletişimi ve veri yönetimi standartlarını da belirlemektedir.
 
-BÖLÜM 1 – GENEL BİLGİLENDİRME
-Servis hizmetlerimizin iptali, müşteri memnuniyetini gözeten, aynı zamanda teknik ekibimizin zaman ve kaynak planlamasını korumayı hedefleyen bir süreçtir. Bu prosedür belgesi, müşterilerimizin hizmet taleplerini ne şekilde ve hangi koşullarda iptal edebileceğini detaylı biçimde açıklar. Aşağıda belirtilen kurallar, tüm teknik servis randevuları için geçerlidir.
-
-1.1 Kapsam
-Bu belge, tüm bireysel müşteriler ve kurumsal servis sözleşmesi bulunmayan kullanıcılar için geçerlidir. Kurumsal kullanıcılar için farklı protokoller uygulanabilir.
-
-1.2 Geçerlilik
-İptal politikası, randevu tarihi itibariyle geçerlidir. Müşteri, servis talebinde bulunurken bu kuralları kabul etmiş sayılır.
-
-BÖLÜM 2 – İPTAL KOŞULLARI
-
-2.1 Standart İptal Süresi
-Servis taleplerinin iptali, randevu saatinden en az 24 saat önce yapılmalıdır. 24 saatten daha kısa sürede yapılan iptaller, “geç iptal” kapsamında değerlendirilir ve hizmet bedelinin %30’u fatura edilir.
-
-2.2 İptal Kanalları
-Müşteri, iptal işlemini şu kanallardan gerçekleştirebilir:
-- Çağrı merkezi: 0850 XXX XX XX (Hafta içi 09:00–18:00)
-- Web portal: musteri.servisportali.com/iptal
-- Mobil uygulama: “ServisKolay” → Randevu İşlemleri → İptal Et
-
-2.3 Geç İptal ve Ücretlendirme
-Aşağıdaki durumlar geç iptal sayılır ve ek ücretlendirme uygulanır:
-- 24 saatten kısa süre kala iptal edilen servisler
-- Teknik ekibin adrese ulaştığı ancak müşterinin bulunmadığı servisler
-- Yanlış adres beyanı nedeniyle adrese ulaşılamayan durumlar
-
-Geç iptallerde:
-- Ulaşım ve planlama masrafları müşteriye yansıtılır.
-- Tekrar servis talebi için yeniden ücret ödenmesi gerekir.
-
-BÖLÜM 3 – İPTAL SONRASI PROSEDÜRLER
-
-3.1 İade Süreci
-Peşin ödeme yapılmış hizmetlerde, geçerli iptallerde iade süreci otomatik başlatılır. İade işlemi, müşterinin ödeme yöntemine göre 3–7 iş günü içinde tamamlanır.
-
-3.2 Parça Siparişi Durumu
-Eğer müşteri adına özel bir parça siparişi verilmişse, iptal durumunda parça bedeli iade edilmez. Bu bilgi, servis onayı sırasında müşteriye sunulur.
-
-3.3 Erteleme Talebi
-Müşteri, servis tarihini ertelemek istediğinde iptal prosedürleri yerine “erteleme protokolü” devreye girer. Aynı randevu 2’den fazla ertelenemez. Üçüncü erteleme talebinde iptal kabul edilmez ve hizmet geçersiz sayılır.
-
-BÖLÜM 4 – SİSTEMSEL BLOKELER
-
-4.1 Otomatik Blokaj
-Bir kullanıcı aynı ay içinde 3 defa üst üste iptal talebinde bulunursa, sistem üzerinden servis talebi oluşturma hakkı 15 gün süreyle askıya alınır.
-
-4.2 Kara Liste Durumu
-Yukarıda belirtilen davranışların sistematik hale gelmesi durumunda (6 ay içinde 5’ten fazla iptal), müşteri sistemi kötüye kullanıyor kabul edilir ve “kara liste” kaydı oluşturulur.
-
-BÖLÜM 5 – ÖZEL KOŞULLAR
-
-5.1 Doğal Afet ve Acil Durumlar
-Deprem, yangın, sel gibi acil durumlar nedeniyle yapılamayan servisler, iptal kapsamında değerlendirilmez. Müşteri bilgilendirilir, hizmet farklı tarihe ücretsiz aktarılır.
-
-5.2 Özel Müşteri Grupları
-Engelli müşteriler, 65 yaş üstü kullanıcılar için iptal prosedürleri daha esnektir. Bu gruplara öncelik tanınır.
-
-5.3 Garanti Sürecindeki Cihazlar
-Garanti dahilinde gelen cihazlar için yapılan iptallerde herhangi bir ücret talep edilmez. Ancak parçalı müdahaleler başlamışsa iptal mümkün değildir.
-
-BÖLÜM 6 – GÜNCELLEME HAKKI
-Firmamız, hizmet kalitesini artırmak adına iptal politikalarında değişiklik yapma hakkını saklı tutar. Yapılacak tüm değişiklikler en az 7 gün önceden web sitemizde duyurulur.
+2. İptal ve Yeniden Planlama Süreçlerinin Tanımı ve Tipleri
+Servis randevusu iptal veya yeniden planlama talepleri, talebin zamanlamasına ve nedenine göre farklı kategorilerde değerlendirilir. Bu kategorizasyon, doğru prosedürün uygulanması ve müşteriyle iletişim stratejisinin belirlenmesi için hayati öneme sahiptir.
+Zamanında İptal/Yeniden Planlama: Müşterinin, planlanan servis randevusu saatinden en az 2 saat önce yaptığı iptal veya yeniden planlama talepleridir. Bu durum, operasyonel planlamaya zarar vermediği için en ideal senaryodur.
+Geç İptal/Yeniden Planlama: Müşterinin, planlanan servis randevusu saatine 2 saatten daha az bir süre kala yaptığı veya L2 saha teknisyeni adresine vardıktan sonra ilettiği taleplerdir. Bu durum, teknisyenin zaman kaybına ve potansiyel olarak diğer randevuların aksamasına neden olabilir.
+Randevuya Ulaşılamama: L2 saha teknisyeninin, randevu saatinde belirtilen adreste müşteriye veya yetkili bir kişiye ulaşamaması durumudur. Bu durum, geç iptal ile benzer operasyonel sonuçlar doğurur.
+Meridian Teknik Servis Tarafından İptal: Mücbir sebepler (aşırı hava koşulları, doğal afetler, teknik aksaklıklar, araç arızası vb.) nedeniyle servis şirketinin randevuyu iptal etmek zorunda kalmasıdır.
+3. Rol Bazlı İptal ve Yeniden Planlama Prosedürleri
+3.1. L1 Çağrı Merkezi Personeli Adımları
+Randevu Sorgulama: Müşteriden gelen iptal veya yeniden planlama talebi üzerine, müşteri adı, soyadı ve servis numarası bilgileri alınarak CRM sistemi üzerinden ilgili servis kaydı bulunur.
+Zamanlama Tespiti: Müşterinin talebinin, randevu saatinden ne kadar önce yapıldığı kontrol edilir. Bu, talebin "Zamanında" mı yoksa "Geç" mi olduğunu belirlemek için kritik bir adımdır.
+Zamanında İptal/Yeniden Planlama Yönetimi:
+Müşteriye, talebinin sistemimize işlendiği ve mevcut randevunun iptal edildiği veya güncellendiği bilgisi verilir.
+Müşteri yeniden randevu talep ediyorsa, uygun takvim aralığı (tarih ve saat) CRM sistemi üzerinden müşteriye sunulur. Müşterinin onayı ile yeni bir randevu oluşturulur.
+Yeni randevunun tüm detayları (tarih, saat aralığı, yeni servis numarası) müşteriye yazılı (SMS/e-posta) veya sözlü olarak teyit edilir.
+Sistemde eski servis kaydı kapatılır ve yeni bir kayıt oluşturularak süreç devam ettirilir.
+Geç İptal/Yeniden Planlama Yönetimi:
+Müşteriye, randevunun çok yakın bir zamanda iptal edildiği ve bunun operasyonel planlamamızda aksaklıklara neden olabileceği nazikçe izah edilir.
+Bu durumun bir istisna olarak değerlendirileceği, ancak tekrarı durumunda ikinci bir randevu için öncelik verilemeyebileceği bilgisi verilir. Bu, müşteri davranışını yönlendirmeye yönelik bir stratejidir.
+Yeni bir randevu planlaması için müşterinin talebi alınır. Müşteri, yeni randevu planlaması sırasında, sistemin mevcut yoğunluğuna göre planlama yapılacağı konusunda bilgilendirilir.
+Müşterinin yeni randevu talebi CRM sistemine "Geç İptal Kaydı" etiketiyle işlenir. Yeni randevu oluşturulur ve müşteriye teyit edilir.
+Geri Bildirim ve Kayıt: Tüm iptal ve yeniden planlama süreçleri, nedenleri ve müşteriyle yapılan iletişim notları, ilgili servis kaydına detaylı bir şekilde kaydedilmelidir. Bu kayıtlar, gelecekteki olası anlaşmazlıklarda veya tekrar eden sorunlarda referans noktası olarak kullanılır.
+3.2. L2 Saha Teknisyeni Adımları
+Günlük Randevu Listesi Kontrolü: L2 teknisyeni, mesai başlangıcında CRM sistemi üzerinden güncel randevu listesini kontrol eder. İptal edilen veya yeniden planlanan randevulara ait güncel bilgilere erişim sağlar.
+Randevu Adresinde İletişim ve Bekleme Prosedürü:
+Randevu adresine varıldığında, müşteriyle veya yetkilendirilmiş kişiyle iletişim kurulmaya çalışılır.
+Eğer adreste kimse bulunamazsa, teknisyen müşteriyle kayıtlı telefon numarası üzerinden iletişime geçmeye çalışır. Arama kaydı CRM sistemine işlenir.
+Müşteriye ulaşılamaması durumunda, teknisyen adresin doğru olup olmadığını kontrol eder ve makul bir süre (en az 15 dakika) adreste bekler. Bu bekleme süresi, servis formuna işlenmelidir.
+Bekleme süresi sonunda müşteriye hala ulaşılamazsa, teknisyen adresten ayrılır.
+Randevuya Ulaşılamama Raporlaması:
+Randevuya ulaşılamayan her durum, L2 teknisyeni tarafından CRM sistemine "Randevuya Ulaşılamama" olarak raporlanır.
+Raporda, adrese varış ve ayrılış saati, bekleme süresi, yapılan arama girişimleri ve varsa diğer detaylar (komşuya soruldu, adresin yanlış olduğu tespit edildi vb.) açıkça belirtilmelidir. Bu rapor, L1 çağrı merkezi personeli tarafından müşteriye geri dönüş yapılırken temel teşkil eder.
+Geç İptal ve İşlem:
+Eğer teknisyen adresteyken müşteri tarafından geç iptal talebi gelirse, teknisyen bu durumu L1 çağrı merkezine bildirir.
+Müşteriye, randevu için yola çıkıldığı ve zaman kaybı yaşandığı bilgisi nazikçe iletilir. İkinci bir randevu için öncelik verilemeyebileceği tekrar hatırlatılır.
+Teknisyen, servis formuna durumu detaylı olarak yazar ve ilgili kaydı kapatır.
+3.3. L3 Merkez Teknik Uzmanı Adımları
+Operasyonel Süreç İyileştirme: L3 uzmanı, CRM sisteminden gelen iptal ve yeniden planlama verilerini düzenli olarak analiz eder. Özellikle "Geç İptal" ve "Randevuya Ulaşılamama" oranlarını takip eder. Bu veriler, operasyonel planlama süreçlerinin iyileştirilmesi için kullanılır.
+Kural Dışı Durum Yönetimi: Birden fazla kez geç iptal yapan veya randevuya ulaşılamayan müşterilerin kayıtları incelenir. Gerekirse bu müşterilerle özel bir iletişim planı oluşturularak sorunun kök nedeni (örneğin müşteri iletişim bilgilerinin yanlış olması, müşterinin servis saatleri hakkında yanlış beklentilere sahip olması) tespit edilir ve çözülür.
+4. Kural Dışı Durumlar ve İstisnalar
+Bazı özel durumlarda, normal iptal kurallarının dışında hareket edilmesi gerekebilir. Bu tür durumlar, istisnai durum olarak değerlendirilir ve aşağıdaki şekilde yönetilir:
+Mücbir Sebep İptalleri: Müşterinin kendi kontrolü dışında gelişen acil sağlık durumu, ailevi bir acil durum gibi mücbir sebeplerle randevuyu zamanında iptal edememesi durumunda, L1 çağrı merkezi personeli tarafından bu durum istisnai olarak kabul edilebilir. Bu tür durumlarda, müşteriyle empati kurulur ve yeni bir randevu için normal operasyonel akış içinde en uygun zamanlama sağlanır.
+Tekrarlayan İptaller: Bir müşteri, arka arkaya iki kez "Geç İptal" veya "Randevuya Ulaşılamama" durumuna neden olursa, CRM sistemi otomatik olarak bu kaydı işaretler. Üçüncü bir randevu talebi geldiğinde, L1 çağrı merkezi personeli bu durumu müşteriye nazikçe hatırlatır ve randevu planlamasının normal yoğunlukta olacağını belirtir. Üçüncü randevu, operasyonel yoğunluğa göre önceliklendirilmez.
+Meridian Teknik Servis İptalleri: Hava koşulları (fırtına, yoğun kar vb.), personel veya araç arızaları gibi nedenlerle randevunun Meridian Teknik Servis tarafından iptal edilmesi durumunda, L1 çağrı merkezi personeli derhal müşterilerle iletişime geçer. İptal nedeni açıklanır ve yeni bir randevu için müşteri onayı alınır. Bu durumda, müşterilere öncelik tanınır ve en kısa sürede yeni bir randevu planlanır. Bu iptal, müşterinin kayıtlarına olumsuz bir not olarak yansıtılmaz.
+5. Süreçlerin Takibi ve Geri Bildirim
+Meridian Teknik Servis, iptal ve yeniden planlama süreçlerinin takibini ve analizi için CRM sistemini aktif olarak kullanır. Her servis kaydında, iptal/yeniden planlama durumları, nedenleri ve müşteriyle yapılan görüşmelerin notları eksiksiz bir şekilde yer almalıdır. Bu veriler, aylık operasyonel raporlamalarda kullanılarak süreç iyileştirmeleri için temel teşkil eder. L2 saha teknisyenlerinin "Randevuya Ulaşılamama" raporları, L1 çağrı merkezi personelinin müşteriyle daha sonraki iletişimlerinde doğru bilgiyi sunabilmesi için kritiktir.
