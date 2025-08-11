@@ -1,3 +1,7 @@
-Servis randevusuna 2 saatten az bir süre kala yapılan iptal talepleri, "Geç İptal/Yeniden Planlama" olarak değerlendirilir. Bu durum, teknisyenin zaman kaybına ve potansiyel olarak diğer randevuların aksamasına neden olabilir.
+Soru: Makinenin su almamasının nedeni nedir? Musluk açık, hortumda bir sorun yok.
 
-Bu durum müşteri için, operasyonel planlamamızda aksaklıklara neden olabileceği ve yeni bir randevu planlaması için öncelik verilemeyebileceği anlamına gelir.
+Cevap: Belirtilen belgelerde, makinenin su almamasının nedeni pompa filtresinin temizlenmemiş olabileceği ve tahliye pompasının arızalı olabileceği belirtilmiştir. Öncelikle, cihazın önündeki filtre kapağını açarak pompa filtresini temizlemesini tavsiye edilir. Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturulur. [Kaynak: Belge 1 - L2 Saha Teknisyeni Adımları]
+
+Eğer tahliye pompası arızalıysa, pompayı değiştirilmesi gerekir. Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulamak gerekir. [Kaynak: Belge 1 - L2 Saha Teknisyeni Adımları]
+
+Not: Bu sorunun cevabı elimdeki belgelerde bulunmamaktadır.
