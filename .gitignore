@@ -1,2 +1,8 @@
 .DS_Store
 .env
+# ---- RAG SupportBot ----
+__pycache__/
+*.pyc
+logs/
+last_answer.txt
+db/faiss_index/

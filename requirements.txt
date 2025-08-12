@@ -4,3 +4,5 @@ faiss-cpu
 tqdm
 black
 ruff
+requests
+python-dotenv

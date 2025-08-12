@@ -58,3 +58,11 @@ Veriler `db/faiss_index` klasöründe JSON tabanlı formatta saklanır.
 
 ---
 
+## Son Yapılan Ana İyileştirmeler
+
+- **LLM Model Yönetimi (.env üzerinden):**  
+  Artık kullanılan LLM modeli kod içine sabit yazılmak yerine `.env` dosyasındaki `OPENROUTER_MODEL` değişkeni üzerinden yönetilmektedir. Böylece model değişikliği için kodu değiştirmeye gerek kalmaz.
+
+- **Prompt Versiyonlama:**  
+  Sistem prompt’u, `app/prompts/system_v1.txt` dosyasına taşınarak koddan ayrılmıştır. Prompt değişiklikleri dosya üzerinden yapılabilir, böylece geçmiş versiyonlar takip edilebilir.
+

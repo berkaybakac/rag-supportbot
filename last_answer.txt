@@ -1,7 +1,0 @@
-Soru: Makinenin su almamasının nedeni nedir? Musluk açık, hortumda bir sorun yok.
-
-Cevap: Belirtilen belgelerde, makinenin su almamasının nedeni pompa filtresinin temizlenmemiş olabileceği ve tahliye pompasının arızalı olabileceği belirtilmiştir. Öncelikle, cihazın önündeki filtre kapağını açarak pompa filtresini temizlemesini tavsiye edilir. Eğer hata devam ediyorsa, L2 saha teknisyeni yönlendirmesi için kayıt oluşturulur. [Kaynak: Belge 1 - L2 Saha Teknisyeni Adımları]
-
-Eğer tahliye pompası arızalıysa, pompayı değiştirilmesi gerekir. Değişimden sonra cihazı test ederek hatanın giderildiğini doğrulamak gerekir. [Kaynak: Belge 1 - L2 Saha Teknisyeni Adımları]
-
-Not: Bu sorunun cevabı elimdeki belgelerde bulunmamaktadır.
