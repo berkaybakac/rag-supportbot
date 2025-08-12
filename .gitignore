@@ -2,51 +2,51 @@
 .DS_Store
 Thumbs.db
 
-# Python derleme/önbellek
+# Python build/cache
 __pycache__/
 *.py[cod]
+*.pyo
 *.so
 *.egg-info/
 .eggs/
-*.pyo
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
 .ipynb_checkpoints/
 
-# Sanal ortamlar
+# Virtual envs
 .venv/
 venv/
 ENV/
 env/
 
-# Araç/cihaz önbellekleri
+# Tool caches
 .cache/
 .hypothesis/
 
-# Proje çıktıları
+# Project outputs (runtime/generated)
 last_answer.txt
 
-# FAISS index (üretilir)
+# FAISS index (generated) — keep only .gitkeep
 db/faiss_index/**
 !db/faiss_index/.gitkeep
 
-# Loglar (üretilir)
+# Logs (generated) — keep only .gitkeep
 logs/**
 !logs/.gitkeep
 
-# Model önbellekleri (HF vs.)
+# Model caches (e.g., HF) — keep only .gitkeep
 models/**
 !models/.gitkeep
 
-# Yerel yapılandırmalar
+# Local config
 .env
 .vscode/
 .idea/
 
-# Streamlit
+# Streamlit local config
 .streamlit/
 .streamlit/secrets.toml
 
-# İndirilen büyük dosyalar
+# Optional downloads
 download/
