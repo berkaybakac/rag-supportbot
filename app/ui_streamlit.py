@@ -1,12 +1,13 @@
 # app/ui_streamlit.py
-
 import os
+import glob
+from typing import List
 import streamlit as st
 
-# Her koşulda tokenizers uyarısını kapat
+# Uyarıyı kapat
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
-# --- Streamlit Cloud: secrets -> env köprüsü (dotenv yoksa) ---
+# Streamlit Cloud secrets -> env köprüsü
 for k in (
     "OPENROUTER_API_KEY",
     "OPENROUTER_MODEL",
@@ -24,10 +25,27 @@ st.set_page_config(page_title="RAG SupportBot", layout="wide")
 st.title("RAG SupportBot")
 st.markdown("Belgelerinizden beslenen teknik destek asistanı.")
 
+
+# --- Yardımcı: indeks imzası (değişince cache bozulsun) ---
+def index_signature(path: str = "db/faiss_index") -> str:
+    if not os.path.isdir(path):
+        return "no-index"
+    mtimes: List[str] = []
+    for p in sorted(glob.glob(os.path.join(path, "**"), recursive=True)):
+        if os.path.isfile(p):
+            try:
+                mtimes.append(f"{p}:{os.path.getmtime(p)}")
+            except Exception:
+                pass
+    return "|".join(mtimes) or "empty-index"
+
+
 # ───────── Belge yükleme + embedding (lazy import) ─────────
 st.subheader("Belge Yükleme")
 uploaded_files = st.file_uploader(
-    "Belgeleri seçin (TXT, PDF, MD)", accept_multiple_files=True
+    "Belgeleri seçin (TXT, PDF, MD)",
+    type=["txt", "md", "pdf"],
+    accept_multiple_files=True,
 )
 
 if uploaded_files:
@@ -45,16 +63,18 @@ if uploaded_files:
 
         build_index(data_dir=data_dir, persist_dir="db/faiss_index")
         st.success("Embedding tamamlandı. Yeni belgeler kullanılabilir.")
+        # İndeks değişti; retriever cache'ini kırmak için sayfayı yenile
         st.session_state["index_ready"] = True
+        st.rerun()
     except Exception as e:
         st.error("Embedding sırasında hata oluştu.")
         with st.expander("Hata detayı"):
             st.code(repr(e))
 
 
-# ───────── Retriever cache (lazy init) ─────────
+# ───────── Retriever cache (indeks imzasına bağlı) ─────────
 @st.cache_resource(show_spinner="Arama motoru hazırlanıyor…")
-def load_retriever():
+def load_retriever(sig: str):
     from app.retriever import DocumentRetriever  # lazy import
 
     return DocumentRetriever()
@@ -72,8 +92,7 @@ if question:
         st.stop()
 
     try:
-        retriever = load_retriever()  # cache_resource sayesinde tek kez kurulur
-
+        retriever = load_retriever(index_signature())  # indeks değişince cache bozulur
         with st.spinner("Belgeler aranıyor…"):
             results = retriever.retrieve(question) or []
 
@@ -90,7 +109,6 @@ if question:
 
             st.subheader("Kaynak Belgeler")
             for i, node in enumerate(results):
-                # farklı düğüm tiplerine dayanıklı okuma
                 text = getattr(node, "text", None)
                 if text is None and hasattr(node, "node"):
                     text = getattr(node.node, "text", "")
@@ -102,7 +120,7 @@ if question:
         with st.expander("Hata detayı"):
             st.code(repr(e))
 
-# ───────── Geçici debug panel (sorun giderme için) ─────────
+# ───────── Geçici debug panel ─────────
 with st.expander("Debug (geçici)"):
     st.write("CWD:", os.getcwd())
     try:
