@@ -2,10 +2,10 @@
 import os
 import streamlit as st
 
-# Her koşulda tokenizers uyarısını kapat
+# Tokenizers uyarısını kapat (fork sonrası deadlock uyarıları için)
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
 
-# Streamlit Cloud: secrets -> env köprüsü (dotenv yoksa)
+# Streamlit Cloud/Secrets -> env köprüsü (dotenv yoksa)
 for k in (
     "OPENROUTER_API_KEY",
     "OPENROUTER_MODEL",
@@ -88,7 +88,7 @@ if question:
             st.subheader("Yanıt")
             st.write(answer)
 
-            # Son etkileşimi state'e koy (feedback için)
+            # Feedback için state
             st.session_state["last_question"] = question
             st.session_state["last_answer"] = answer
             st.session_state["last_nodes"] = results
@@ -111,7 +111,6 @@ if question:
         with st.expander("Hata detayı"):
             st.code(repr(e))
 
-
 # ───────── Geri Bildirim ─────────
 if "last_answer" in st.session_state:
     st.subheader("Geri Bildirim")
@@ -129,22 +128,44 @@ if "last_answer" in st.session_state:
         try:
             from app.feedback_logger import log_feedback
 
-            log_feedback(
+            # Kaynak meta listesi
+            docs_meta = []
+            for node in st.session_state.get("last_nodes", []) or []:
+                meta = {}
+                if hasattr(node, "node") and getattr(node.node, "metadata", None):
+                    meta = dict(node.node.metadata or {})
+                elif getattr(node, "metadata", None):
+                    meta = dict(node.metadata or {})
+                docs_meta.append(
+                    {
+                        "score": getattr(
+                            node, "score", getattr(node, "similarity", None)
+                        ),
+                        "source": meta.get("file_path")
+                        or meta.get("source")
+                        or meta.get("doc_id"),
+                    }
+                )
+
+            ok, err = log_feedback(
                 question=st.session_state.get("last_question", ""),
                 answer=st.session_state.get("last_answer", ""),
-                nodes=st.session_state.get("last_nodes", []) or [],
                 helpful=(helpful_choice == "Evet"),
-                comment=comment,
+                comment=(comment.strip() or None),
                 model=st.session_state.get("last_model"),
+                docs=docs_meta,
+                extra={"ui": "streamlit"},
             )
-            st.success("Geri bildiriminiz kaydedildi. Teşekkürler.")
-            # Birden fazla kayıt olmasın diye key'i değiştir
-            st.session_state["feedback_key"] += "_done"
+            if ok:
+                st.success("Geri bildiriminiz kaydedildi. Teşekkürler.")
+                # Çift kayıt olmaması için form key değiştir
+                st.session_state["feedback_key"] += "_done"
+            else:
+                st.error(f"Geri bildirim kaydı başarısız: {err}")
         except Exception as e:
             st.error("Geri bildirim kaydedilemedi.")
             with st.expander("Hata detayı"):
                 st.code(repr(e))
-
 
 # ───────── Geçici debug panel (sorun giderme için) ─────────
 with st.expander("Debug (geçici)"):
