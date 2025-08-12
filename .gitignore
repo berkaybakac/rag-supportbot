@@ -1,8 +1,25 @@
+# OS / Editor
 .DS_Store
-.env
-# ---- RAG SupportBot ----
+.vscode/
+.idea/
+
+# Python
 __pycache__/
-*.pyc
-logs/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+.env
+.env.*
+
+# Project artifacts
 last_answer.txt
-db/faiss_index/
+
+# Generated indexes & logs (keep dir with .gitkeep)
+db/faiss_index/**
+!db/faiss_index/.gitkeep
+logs/**
+!logs/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
