@@ -1,25 +1,52 @@
-# OS / Editor
+# OS
 .DS_Store
-.vscode/
-.idea/
+Thumbs.db
 
-# Python
+# Python derleme/önbellek
 __pycache__/
 *.py[cod]
+*.so
+*.egg-info/
+.eggs/
 *.pyo
-*.pyd
-.venv/
-.env
-.env.*
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
 
-# Project artifacts
+# Sanal ortamlar
+.venv/
+venv/
+ENV/
+env/
+
+# Araç/cihaz önbellekleri
+.cache/
+.hypothesis/
+
+# Proje çıktıları
 last_answer.txt
 
-# Generated indexes & logs (keep dir with .gitkeep)
+# FAISS index (üretilir)
 db/faiss_index/**
 !db/faiss_index/.gitkeep
+
+# Loglar (üretilir)
 logs/**
 !logs/.gitkeep
 
-# Jupyter
-.ipynb_checkpoints/
+# Model önbellekleri (HF vs.)
+models/**
+!models/.gitkeep
+
+# Yerel yapılandırmalar
+.env
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+
+# İndirilen büyük dosyalar
+download/
