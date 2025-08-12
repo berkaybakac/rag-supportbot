@@ -1,5 +1,7 @@
 # rag-supportbot
 
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live-success)](https://rag-supportbot.streamlit.app)
+
 **rag-supportbot** is a local, document-based AI assistant designed to help technical support teams answer user questions based on existing documents.
 
 The system is built using the Retrieval-Augmented Generation (RAG) architecture, which enables reliable and source-grounded responses by retrieving relevant document chunks and generating answers using a local large language model.
@@ -24,4 +26,5 @@ The system is built using the Retrieval-Augmented Generation (RAG) architecture,
 
 MIT License
 
-> This project is in active development. The architecture and components may change as the system evolves.
+> This project is in active development. The architecture and components may change as the 
+system evolves.
