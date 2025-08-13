@@ -66,3 +66,44 @@ Veriler `db/faiss_index` klasöründe JSON tabanlı formatta saklanır.
 - **Prompt Versiyonlama:**  
   Sistem prompt’u, `app/prompts/system_v1.txt` dosyasına taşınarak koddan ayrılmıştır. Prompt değişiklikleri dosya üzerinden yapılabilir, böylece geçmiş versiyonlar takip edilebilir.
 
+
+## Son Yapılan Ana İyileştirmeler (Güncel)
+
+- **Gerçek FAISS entegrasyonu:** `FaissVectorStore` ile kalıcı vektör deposu kuruldu; embedder FAISS’e indeks yazıyor, retriever FAISS’ten yüklüyor (IndexFlatL2).  
+- **Reranker eklendi:** `BAAI/bge-reranker-base` ile ilk getirilen parçalar yeniden sıralanıyor; `top_k_retrieval` ve `top_k_rerank` ayarlanabilir.  
+- **LLM çağrısı sertleştirildi:** Boş bağlamda LLM çağrısı yapılmıyor; OpenRouter hata yakalama ve mesaj şeffaflaştırma eklendi.  
+- **Prompt dışsallaştırma:** Sistem prompt’u dosyaya alındı; `.env` ile `OPENROUTER_MODEL` değiştirilebilir.  
+- **UI’ı modülerleştirme:** Streamlit arayüzü yalnızca **retriever** ve **LLM** katmanlarını çağırıyor; embedder sadece veri güncellenince çalıştırılıyor.  
+- **Geri bildirim altyapısı:** `feedback_logger.py` ile JSONL log; UI’dan “Evet/Hayır + yorum” toplanıp anında tabloya yansıtılıyor.  
+- **Log yolu kararlılığı:** UI/CLI fark etmeksizin tek dosyaya yazmak için log yolu repo köküne göre **mutlak** hale getirildi.  
+- **Makefile hedefleri:** `emb`, `ret`, `llm`, `uis`, `fbk`, `logs`, `watchlogs` ile uçtan uca test akışı.  
+- **Repo hijyeni:** `.gitignore` ile FAISS verisi, loglar ve model cache dışlandı; dizinler `.gitkeep` ile korunuyor.
+
+---
+
+## Adım 4: Arayüz ve Geri Bildirim
+
+### 4.1 Basit Web Arayüzü (`app/ui_streamlit.py`)
+- Streamlit ile başlık + soru girişi (`st.text_input`) ve sonuç alanı.
+- Dosya yükleme expander’ı; yüklenen dosyalar `data/` altına kaydedilip **embedder** tetiklenebilir.
+
+### 4.2 Retriever + LLM Entegrasyonu
+- `DocumentRetriever.retrieve()` ile FAISS’ten benzer parçalar alınır.
+- `generate_answer()` ile sadece seçili parçalar LLM’e verilir.
+- Yanıt ve kaynak önizlemeleri arayüzde gösterilir.
+
+### 4.3 Geri Bildirim Toplama ve Loglama
+- Yanıt altında “Yanıt faydalı oldu mu? (Evet/Hayır)” ve “Yorum” alanı.
+- `log_feedback()` ile şu şema ile `logs/queries.jsonl` dosyasına ek satır yazılır:
+  ```json
+  {
+    "id": "FB-20250812-AB12CD",
+    "ts": "2025-08-12T10:15:30.123456Z",
+    "question": "...",
+    "answer": "...",
+    "helpful": true,
+    "comment": "Kısa yorum",
+    "model": "meta-llama/llama-3-8b-instruct",
+    "docs": [{"score": 0.27, "source": "ariza_kodlari.txt"}],
+    "extra": {"ui": "streamlit"}
+  }
