@@ -1,18 +1,32 @@
-.PHONY: emb ret llm uis lst fbk logs watchlogs
+.PHONY: emb ret llm uis fbk logs watchlogs lst
 
-emb: ; python -m app.embedder          # embedder çalıştır
-ret: ; python -m app.retriever         # retriever çalıştır
-llm: ; python -m app.llm_generator     # LLM generator çalıştır
+# Embedding (FAISS index oluştur/güncelle)
+emb: ; python -m app.embedder
 
+# Retriever CLI
+ret: ; python -m app.retriever
+
+# LLM generator CLI
+llm: ; python -m app.llm_generator
+
+# Streamlit UI
 uis:
 	PYTHONPATH=. streamlit run app/ui_streamlit.py
 
-# feedback_logger test ve görüntüleme
+# Feedback test + son 3 kayıt
 fbk: ; python -m app.feedback_logger --test --show 3
-logs: ; python -m app.feedback_logger --show 20
-watchlogs: ; tail -f logs/queries.jsonl || true
 
-lst:                                   # modül listesini göster
+# Son 20 log kaydı
+logs: ; python -m app.feedback_logger --show 20
+
+# Log dosyasını canlı izle (yoksa oluştur)
+watchlogs:
+	@mkdir -p logs
+	@[ -f logs/queries.jsonl ] || : > logs/queries.jsonl
+	tail -f logs/queries.jsonl || true
+
+# Modül listesini göster
+lst:
 	@ls app/*.py 2>/dev/null \
 	| sed 's#.*/##;s/\.py$$//' \
 	| grep -v '^__init__$$' || true
