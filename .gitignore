@@ -50,3 +50,5 @@ models/**
 
 # Optional downloads
 download/
+
+app/langchain_wrappers/
